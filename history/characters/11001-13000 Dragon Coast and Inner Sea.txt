@@ -1072,7 +1072,7 @@
 	culture = heartlander
 	religion = good_human_pantheon
 	trait = creature_human
-	father = 11068
+	father = 11069
 	787.1.1 = {
 		birth = yes
 	}
@@ -1087,7 +1087,7 @@
 	culture = heartlander
 	religion = good_human_pantheon
 	trait = creature_human
-	father = 11069
+	father = 11070
 	823.1.1 = {
 		birth = yes
 	}
@@ -1654,7 +1654,7 @@
 		effect = {
 			abdicate = yes
 		}
-		employer = 13001
+		#Send him to Luskan
 	}
 	1463.1.1 = {
 		death = yes
@@ -1736,7 +1736,7 @@
 		trait = just
 	}
 	1360.1.1 = {
-		employer = 11102
+		employer = 11103
 	}
 	1400.1.1 = {
 		death = yes
@@ -3936,7 +3936,7 @@
 	culture = heartlander
 	religion = evil_human_pantheon
 	trait = creature_human
-	mod = 11259
+	mother = 11259
 	400.1.1 = {
 		birth = yes
 	}

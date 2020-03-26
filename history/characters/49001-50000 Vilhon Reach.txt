@@ -83,11 +83,12 @@
 	name = Shinthala
 	female = yes
 	dynasty = 6501
-	culture = heartlander
+	culture = chessentan # Rumored to be born in Ixinos
 	religion = good_human_pantheon
 	trait = creature_human
 	trait = legendary_druid
 	trait = mastermind_theologian
+	trait = strong
 	stewardship = 8
 	intrigue = 9
 	martial = 5
@@ -96,8 +97,11 @@
 	1320.1.1 = {
 		birth = yes
 	}
-	1420.1.1 = {
-		death = yes
+	1359.1.1 = {
+		add_trait = longevity
+	}
+	1385.4.1 = {
+		death = { death_reason = death_spellplague } # Shadowmoon is mentioned as the post-Spellplague leader
 	}
 }
 49006 = {
@@ -112,8 +116,16 @@
 	1321.1.1 = {
 		birth = yes
 	}
-	1359.6.1 = {
+	1359.1.1 = {
 		employer = 49005
+	}
+	1385.4.1 = {
+		add_trait = lunatic
+		set_name = "Cindermoon"
+	}
+	1486.1.1 = {
+		remove_trait = lunatic
+		set_name = "Shadowmoon"
 	}
 	1550.1.1 = {
 		death = yes
@@ -134,7 +146,7 @@
 	1359.6.1 = {
 		employer = 49005
 	}
-	1460.1.1 = {
+	1500.1.1 = {
 		death = yes
 	}
 }

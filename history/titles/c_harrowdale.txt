@@ -30,8 +30,14 @@
 960.1.1 = {
 	holder = 26096 # Jakben Velar
 }
+1038.1.1 = { 
+	liege = k_dalelands
+}
 1040.1.1 = {
 	holder = 26097 # Nelos Velar
+}
+1044.1.1 = {
+	liege = 0
 }
 1120.1.1 = {
 	holder = 26098 # Thaundass Rahr
@@ -44,14 +50,8 @@
 1135.1.1 = {
 	holder = 26100 # Feltaern Ursarr
 }
-1038.1.1 = { 
-	liege = k_dalelands
-}
 1140.1.1 = {
 	holder = 26101 # Imbar Thaelwood
-}
-1044.1.1 = {
-	liege = 0
 }
 1150.1.1 = {
 	holder = 26102 # Elzar Darth
@@ -67,18 +67,18 @@
 1185.1.1 = {
 	name = "HALVANS_DALE"
 	adjective = "HALVANS_DALE_ADJ"
-	holder = 26105 # Halvan the Dark
+	holder = 26106 # Halvan the Dark
 }
 1189.1.1 = {
 	name = c_harrowdale
 	adjective = c_harrowdale_adj
-	holder = 26106 # Gordon Goodtiller
+	holder = 26107 # Gordon Goodtiller
 }
 1260.1.1 = {
-	holder = 26107 # Geralt Goodtiller
+	holder = 26108 # Geralt Goodtiller
 }
 1330.1.1 = {
-	holder = 26108 # Dendor Goodtiller
+	holder = 26109 # Dendor Goodtiller
 }
 1356.1.1 = {
 	holder = 26110 # Lashan Aumersair

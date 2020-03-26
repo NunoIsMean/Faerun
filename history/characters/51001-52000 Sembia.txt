@@ -1412,41 +1412,13 @@
 		death = yes
 	}
 }
-51264 = {
-	name = "Garum"
-	dynasty = 7030 # Indoros
-	culture = chondathan
-	religion = good_human_pantheon
-	trait = creature_human
-	father = 51265
-	520.1.1 = {
-		birth = yes
-	}
-	620.1.1 = {
-		death = yes
-	}
-}
-51265 = {
-	name = "Pindrel"
-	dynasty = 7030 # Indoros
-	culture = chondathan
-	religion = good_human_pantheon
-	trait = creature_human
-	father = 51264
-	600.1.1 = {
-		birth = yes
-	}
-	700.1.1 = {
-		death = yes
-	}
-}
 51266 = {
 	name = "Drin"
 	dynasty = 7030 # Indoros
 	culture = chondathan
 	religion = good_human_pantheon
 	trait = creature_human
-	father = 51265
+	father = 51283
 	680.1.1 = {
 		birth = yes
 	}
@@ -1657,6 +1629,34 @@
 		birth = yes
 	}
 	800.1.1 = {
+		death = yes
+	}
+}
+51282 = {
+	name = "Garum"
+	dynasty = 7030 # Indoros
+	culture = chondathan
+	religion = good_human_pantheon
+	trait = creature_human
+	father = 51265
+	520.1.1 = {
+		birth = yes
+	}
+	620.1.1 = {
+		death = yes
+	}
+}
+51283 = {
+	name = "Pindrel"
+	dynasty = 7030 # Indoros
+	culture = chondathan
+	religion = good_human_pantheon
+	trait = creature_human
+	father = 51282
+	600.1.1 = {
+		birth = yes
+	}
+	700.1.1 = {
 		death = yes
 	}
 }

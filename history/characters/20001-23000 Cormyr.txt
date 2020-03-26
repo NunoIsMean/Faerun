@@ -7591,7 +7591,7 @@ death = yes
 	trait = creature_human
 	religion = netherese_pantheon
 	culture = impilturan
-	3.11.24 = { birth = yes }
+	1.11.24 = { birth = yes }
 	26.1.1 = { death = yes }
 }
 20435 = {
@@ -7650,8 +7650,8 @@ death = yes
 	female = yes
 	religion = netherese_pantheon
 	culture = impilturan
-	3.11.25 = { birth = yes }
-	3.12.20 = { add_spouse = 20434 }
+	1.11.25 = { birth = yes }
+	1.12.20 = { add_spouse = 20434 }
 	12.1.1 = { remove_spouse = 20434 }
 	43.1.1 = { death = yes }
 }

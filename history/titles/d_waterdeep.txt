@@ -18,9 +18,6 @@
 1314.1.1 = {
 	holder = 7001 #Piergeiron "the Paladinson"
 }
-1325.1.1 = {
-	set_title_flag = lords_alliance
-}
 1379.1.1 = {
 	holder = 7214 # Audreitha Teltorna
 }

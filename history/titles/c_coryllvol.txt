@@ -31,11 +31,11 @@
 444.1.1 = {
 	holder = 28208 # Hartovam Amethystall
 }
-464.1.1 = {
-	holder = 28207 # Tathtomar Amethystall
-}
 451.1.1 = {
 	holder = 9344 # Bellabar Huntinghorn - extend his line back next
+}
+464.1.1 = {
+	holder = 28207 # Tathtomar Amethystall
 }
 514.1.1 = {
 	holder = 28206 # Halikam Amethystall

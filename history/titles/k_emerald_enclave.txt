@@ -1,8 +1,7 @@
-# e_chondath
-374.1.1={
-	liege = k_emerald_enclave
+374.1.1 = {
 	law = true_cognatic_succession
 	law = succ_divine_elective
+	
 }
 1359.1.1 = {
 	holder = 49005 # Shinthala Deepcrest, Grand Cabal of the Emerald Enclave
