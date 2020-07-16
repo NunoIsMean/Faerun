@@ -485,7 +485,7 @@
 	trait = trusting
 	trait = arbitrary
 	#trait = master_thief
-	trait = master_assassin
+	trait = master_shadow
 	disallow_random_traits = yes
 	1328.5.16 = { birth = yes }
 	1400.1.1 = {
@@ -497,7 +497,7 @@
 	name = Vahhab
 	dynasty = 7202
 	culture = wemic
-	religion = evil_human_pantheon
+	religion = sylvan
 	diplomacy = 7
 	martial = 8
 	stewardship = 9
@@ -522,7 +522,7 @@
 	name = Kamran
 	dynasty = 7203
 	culture = wemic
-	religion = calishite_faith
+	religion = sylvan
 	diplomacy = 6
 	martial = 4
 	stewardship = 4
@@ -546,7 +546,7 @@
 	name = Gubaz
 	dynasty = 7201
 	culture = centaur
-	religion = good_human_pantheon
+	religion = sylvan
 	diplomacy = 9
 	martial = 2
 	stewardship = 1
@@ -594,7 +594,7 @@
 	trait = trusting
 	trait = arbitrary
 	#trait = master_thief
-	trait = master_assassin
+	trait = master_shadow
 	disallow_random_traits = yes
 	1318.5.16 = { birth = yes }
 	1400.1.1 = { death = yes }
@@ -1204,7 +1204,9 @@
 		birth = yes
 	}
 	202.1.1 = {
-		set_secret_religion = abyssal_cult # Eltab, specifically
+		effect = {
+			set_secret_religion = abyssal_cult # Eltab, specifically
+		}
 	}
 	211.1.1 = {
 		death = yes

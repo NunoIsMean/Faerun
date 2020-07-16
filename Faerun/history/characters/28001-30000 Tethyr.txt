@@ -11,10 +11,20 @@
 	religion = good_human_pantheon
 	culture = tethyrian
 	trait = creature_human
-	
+	trait = bright
 	1335.12.1 = { birth = yes }
 	1336.1.1 = {
 		employer = 20093 # In hiding in Shadowdale
+	}
+	1351.1.1 = {
+		trait = erudite
+		trait = shrewd
+		trait = administrator
+		trait = deceitful
+		trait = fighter
+		trait = trained_wizard
+		trait = scholarly_theologian
+		trait = poet
 	}
 	1353.1.1 = {
 		employer = 7048 # In hiding in Shadowdale
@@ -379,7 +389,7 @@
 	997.1.1 = { death = yes }
 }
 28028 = {
-	name = Mhoaran
+	name = Mhoaran #the Tusk-Bearded
 	dynasty = 4100
 	father = 28046 # Atann Bormul
 	mother = 28178 # Third sister of Cyriana
@@ -388,12 +398,15 @@
 	trait = creature_human
 	
 	# Description from Dragon 107 p.34
-	trait = robust
-	trait = wroth
-	
+
 	919.1.1 = { birth = yes }
 	935.1.1 = {
 		give_nickname = nick_the_tusk_bearded
+		trait = robust
+		trait = wroth
+		create_bloodline = {
+			type = lions_bloodline
+		}
 	}
 	974.1.1 = { death = yes }
 }
@@ -2100,6 +2113,7 @@
 	female = yes
 	dynasty = 4109
 	father = 28154
+	mother = 28231
 	religion = good_human_pantheon
 	culture = tethyrian
 	
@@ -2112,6 +2126,7 @@
 	name = Garynor
 	dynasty = 4109
 	father = 28154
+	mother = 28231
 	religion = good_human_pantheon
 	culture = tethyrian
 	
@@ -2130,6 +2145,7 @@
 	trait = creature_human
 	
 	3.7.2 = { birth = yes }
+	3.7.26 = { add_spouse = 28231 } # Arial Fyrson
 	3.9.21 = { death = yes }
 }
 28155 = {
@@ -2887,7 +2903,7 @@
 	trait = fighter
 	trait = craven
 	1302.1.1 = { birth = yes }
-	1367.8.1 = { employer = 32001 } # Akhbet Khrul of Nelanther
+	1349.8.1 = { employer = 32001 } # Akhbet Khrul of Nelanther
 	1371.1.1 = { death = yes }
 }
 28217 = {
@@ -3080,4 +3096,16 @@
 	1369.1.1 = {
 		death = { death_reason = death_duel killer = 10 }
 	}
+}
+28231 = {
+	name = Arial
+	female = yes
+	dynasty = 4154 # Fyrson - so she's a relative of the original Black Alaric
+	religion = good_human_pantheon
+	culture = tethyrian
+	
+	trait = creature_human
+	
+	3.7.3 = { birth = yes }
+	3.9.18 = { death = yes }
 }

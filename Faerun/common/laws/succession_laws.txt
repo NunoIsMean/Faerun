@@ -41,7 +41,7 @@ succession_laws = {
 #				holder_scope = { is_feudal = yes }
 #				holder_scope = { is_tribal = yes }
 #			}
-#			is_primary_type_title = no
+#			#is_primary_type_title = no #this broke succession for some reason
 #			NOT = { holder_scope = { government = confucian_bureaucracy } }
 #			NOT = { holder_scope = { government = chinese_imperial_government } }
 #		}
@@ -84,6 +84,7 @@ succession_laws = {
 		dynasty_opinion = -5
 		vassal_opinion = 10
 		potential = {
+			is_merchant_republic = no
 			OR = {
 				AND = {
 					is_save_game = no
@@ -116,13 +117,15 @@ succession_laws = {
 				}
 			}
 		}
-		allow = {
-			in_revolt = no
+		allow = {	
 			custom_tooltip = {
 				text = not_forced_tt
 				hidden_tooltip = {
 					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
 				}
+			}
+			holder_scope = {
+				in_revolt = no
 			}
 		}
 		effect = {
@@ -144,6 +147,7 @@ succession_laws = {
 		dynasty_opinion = -10
 		vassal_opinion = 20
 		potential = {
+			is_merchant_republic = no
 			OR = {
 				AND = {
 					is_save_game = no
@@ -166,12 +170,14 @@ succession_laws = {
 			}
 		}
 		allow = {
-			in_revolt = no
 			custom_tooltip = {
 				text = not_forced_tt
 				hidden_tooltip = {
 					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
 				}
+			}
+			holder_scope = {
+				in_revolt = no
 			}
 		}
 		effect = {
@@ -192,6 +198,7 @@ succession_laws = {
 		dynasty_opinion = -5
 		vassal_opinion = 10
 		potential = {
+			is_merchant_republic = no
 			OR = {
 				AND = {
 					is_save_game = no
@@ -218,18 +225,20 @@ succession_laws = {
 						trait = legendary_paladin
 						trait = bhaalspawn
 						trait = avatar
-						#is_chosen = yes
+						evilcat_is_chosen = yes
 					}
 				}
 			}
 		}
 		allow = {
-			in_revolt = no
 			custom_tooltip = {
 				text = not_forced_tt
 				hidden_tooltip = {
 					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
 				}
+			}
+			holder_scope = {
+				in_revolt = no
 			}
 		}
 		effect = {
@@ -249,6 +258,7 @@ succession_laws = {
 		vassal_opinion = 20
 		potential = {
 			title = k_lotus_throne
+			is_merchant_republic = no
 		}
 		allow = {
 			always = yes
@@ -308,7 +318,7 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 				holder_scope = { is_tribal = yes }
 			}
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 			NOT = { holder_scope = { government = magocratic_feudal_government } }					
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 		}
@@ -460,7 +470,7 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 				holder_scope = { is_tribal = yes }
 			}
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = magocratic_feudal_government } }	
@@ -601,7 +611,7 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 				holder_scope = { is_tribal = yes }
 			}
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = magocratic_feudal_government } }								
@@ -763,7 +773,7 @@ succession_laws = {
 				holder_scope = { is_patrician = yes }
 			}
 			
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 			
 			OR = {
 				NOT = { tier = baron }
@@ -945,7 +955,7 @@ succession_laws = {
 						is_tribal_type_title = yes
 						temporary = yes
 					}
-					is_primary_type_title = no
+					#is_primary_type_title = no #this broke succession for some reason
 					OR = {
 						AND = {
 							tier = baron
@@ -1160,7 +1170,7 @@ succession_laws = {
 				is_tribal_type_title = yes
 				temporary = yes
 			}
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 			NOT = { tier = baron }
 			holder_scope = {
 				OR = {
@@ -1284,7 +1294,7 @@ succession_laws = {
 				is_tribal_type_title = yes
 				temporary = yes
 			}
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 			NOT = { tier = baron }
 			holder_scope = {
 				OR = {
@@ -1376,7 +1386,7 @@ succession_laws = {
 			#	is_tribal_type_title = yes
 			#	temporary = yes
 			#}
-			#is_primary_type_title = no
+			##is_primary_type_title = no #this broke succession for some reason
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 
@@ -1465,7 +1475,7 @@ succession_laws = {
 				is_tribal_type_title = yes
 				temporary = yes
 			}
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 			NOT = { tier = baron }
 			OR = {
 				holder_scope = {
@@ -1628,7 +1638,7 @@ succession_laws = {
 					title = e_yaimunnahar
 				}
 			}
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 			OR = {
 				AND = {
 					tier = baron
@@ -1765,7 +1775,10 @@ succession_laws = {
 			}
 			holder_scope = {
 				OR = {
+					culture = fomorian
 					is_muslim_trigger = yes
+					culture = orc
+					culture = gray_orc
 					AND = {
 						culture = shaaran
 						OR = {
@@ -1811,7 +1824,7 @@ succession_laws = {
 							}
 						}
 					}
-					is_primary_type_title = no
+					#is_primary_type_title = no #this broke succession for some reason
 				}
 			}
 			NAND = { 
@@ -1980,7 +1993,7 @@ succession_laws = {
 					}
 				}
 			}
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = magocratic_feudal_government } }	
@@ -2103,7 +2116,7 @@ succession_laws = {
 				holder_scope = { is_feudal = yes }
 				holder_scope = { is_tribal = yes }
 			}
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 			NOT = { holder_scope = { government = confucian_bureaucracy } }
 			NOT = { holder_scope = { government = chinese_imperial_government } }
 			NOT = { holder_scope = { government = magocratic_feudal_government } }								
@@ -2204,6 +2217,8 @@ gender_laws = {
 							culture = bugbear
 							culture = batiri
 							culture = bakemono
+							culture = troll
+							culture = fomorian
 							religion = lolth_cult
 						}
 						has_horde_culture = no
@@ -2251,7 +2266,7 @@ gender_laws = {
 				}
 			}
 			
-			is_primary_type_title = no
+			#is_primary_type_title = no #this broke succession for some reason
 		}
 		
 		effect = {
@@ -2282,7 +2297,9 @@ gender_laws = {
 					culture = bugbear
 					culture = batiri
 					culture = bakemono
-				}		
+					culture = troll
+				}
+				culture = fomorian
 			}
 		}
 		effect = {
@@ -2366,6 +2383,7 @@ gender_laws = {
 						}
 					}
 					NOR = {
+						culture = fomorian
 						AND = {
 							trait = creature_orc
 							NOT = { culture = ondonti }
@@ -2405,27 +2423,28 @@ gender_laws = {
 				}
 			}
 			
-			is_primary_type_title = no
+			##is_primary_type_title = no #this broke succession for some reason #this broke succession for some reason
 		}
 		allow = {
 			OR = {
 				holder_scope = {
-					OR = {
-						NOR = {
-							AND = {
-								trait = creature_orc
-								NOT = { culture = ondonti }
-							}
-							AND = {
-								trait = creature_half_orc
-								culture = orc
-							}
-							AND = {
-								trait = creature_ogrillon
-								culture = orc
-							}
-							religion = lolth_cult
+					NOR = {
+						AND = {
+							trait = creature_orc
+							NOT = { culture = ondonti }
 						}
+						AND = {
+							trait = creature_half_orc
+							culture = orc
+						}
+						AND = {
+							trait = creature_ogrillon
+							culture = orc
+						}
+						religion = lolth_cult
+						culture = fomorian
+					}
+					OR = {
 						has_religion_feature = religion_equal
 						has_religion_feature = religion_feature_earthmother
 						has_religion_feature = religion_feature_yuir
@@ -2494,6 +2513,7 @@ gender_laws = {
 					culture = bugbear
 					culture = batiri
 					culture = bakemono
+					culture = troll
 					has_landed_title = c_ixinos
 					has_religion_feature = religion_matriarchal 
 				}
@@ -2532,6 +2552,7 @@ gender_laws = {
 					culture = bugbear
 					culture = batiri
 					culture = bakemono
+					culture = troll
 					has_landed_title = c_ixinos					
 				}
 			}

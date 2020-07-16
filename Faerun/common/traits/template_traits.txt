@@ -110,7 +110,7 @@ vampire = {
 	fertility = -10.0
 	opposites = { 
 		vampire_spawn
-		dhampyr
+		#dhampyr
 	}
 	
 	ai_honor = -10
@@ -132,7 +132,7 @@ vampire_spawn = { #those with no class levels turn into vampire spawn
 	fertility = -10.0
 	opposites = { 
 		vampire
-		dhampyr
+		#dhampyr
 	}
 	
 	ai_honor = -10
@@ -144,23 +144,23 @@ vampire_spawn = { #those with no class levels turn into vampire spawn
 		evilcat_is_vampire_visible = yes
 	}
 }
-dhampyr = {
-	customizer = no
-	hidden_from_others = yes
-	random = no
-	diplomacy = 1
-	intrigue = 2
-	health = 2
-	sex_appeal_opinion = 10
-	same_opinion = 20
-	opposites = {
-		vampire
-		vampire_spawn
-	}
-	
-	ai_ambition = 5
-	ai_greed = 5
-}
+#dhampyr = {
+#	customizer = no
+#	hidden_from_others = yes
+#	random = no
+#	diplomacy = 1
+#	intrigue = 2
+#	health = 2
+#	sex_appeal_opinion = 10
+#	same_opinion = 20
+#	opposites = {
+#		vampire
+#		vampire_spawn
+#	}
+#	
+#	ai_ambition = 5
+#	ai_greed = 5
+#}
 #
 ##liches
 lich = {
@@ -176,7 +176,7 @@ lich = {
 		undead
 		vampire
 		vampire_spawn
-		dhampyr
+		#dhampyr
 		lich_baelnorn
 	}
 	opposite_opinion = 20
@@ -193,7 +193,7 @@ lich_baelnorn = { #Sacred elf liches
 		undead
 		vampire
 		vampire_spawn
-		dhampyr
+		#dhampyr
 		lich
 		natural_lycanthrope
 		afflicted_lycanthrope
@@ -246,4 +246,22 @@ spirit_folk = {
 	martial = -1
 	learning = 1
 	health = 1
+}
+
+feytouched = {
+	customizer = no
+	random = no
+	health = 1
+	same_opinion = 10
+	sylvan_opinion = 10
+}
+
+half_troll = {
+	customizer = no
+	random = no
+	diplomacy = -1
+	combat_rating = 10
+	health = 2
+	general_opinion = -10
+	same_opinion = 20
 }

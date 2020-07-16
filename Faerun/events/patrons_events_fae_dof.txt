@@ -198,6 +198,19 @@ character_event = {
 		set_character_flag = patron_chosen
 		add_trait = patron_velsharoon
 	}
+	option = {
+		name = PATRONS_FAE_DOF.1.h
+		trigger = { ai = yes }
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 25
+				is_seafarer = yes
+			}
+		}
+		set_character_flag = patron_chosen
+		add_trait = patron_valkur
+	}
 }
 
 #FAE_DOF2
@@ -226,12 +239,6 @@ character_event = {
 	}
 	option = {
 		name = PATRONS_FAE_DOF.2.d
-		trigger = { NOT = { year = 1368 } }
-		hidden_tooltip = { character_event = { id = PATRONS_FAE_DOF.1 } }
-	}
-	option = {
-		name = PATRONS_FAE_DOF.2.d
-		trigger = { year = 1368 }
 		hidden_tooltip = { character_event = { id = PATRONS_FAE_DOF.3 } }
 	}
 }
@@ -246,9 +253,15 @@ character_event = {
 	is_triggered_only = yes
 	
 	option = {
+		trigger = { year = 1368 }
 		name = PATRONS_FAE_DOF.3.a
 		set_character_flag = patron_chosen
 		add_trait = patron_velsharoon
+	}
+	option = {
+		name = PATRONS_FAE_DOF.3.c
+		set_character_flag = patron_chosen
+		add_trait = patron_valkur
 	}
 	option = {
 		name = PATRONS_FAE_DOF.3.b

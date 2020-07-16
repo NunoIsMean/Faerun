@@ -4,24 +4,29 @@
 2 = {
 	name = Bhaal 
 	dynasty = 1
-	culture = highcoaster
+	culture = planar
 	religion = evil_human_pantheon
 	martial = 30 
 	diplomacy = 25 
 	learning = 50
 	intrigue = 30
 	stewardship = 15
+	trait = avatar
 	trait = wroth
 	trait = impaler
 	trait = cruel
 	trait = genius
 	trait = creature_human #not anymore!
-	trait = immortal
 	trait = bio_bhaal
 	trait = absent
-	trait = legendary_assassin
+	trait = legendary_shadow
 	trait = legendary_fighter
 	1240.5.4 = { birth = yes }
+	1250.1.1 = {
+		create_bloodline = {
+			type = bhaal_bloodline
+		}
+	}
 	1358.1.1 = { death = yes}
 }
 
@@ -92,7 +97,7 @@
 	1380.1.1 = {
 		remove_trait = renowned_wizard
 		add_trait = legendary_wizard
-		add_triat = longevity
+		add_trait = longevity
 		immortal_age = 36
 	}
 	1450.1.1 = { death = yes}
@@ -236,24 +241,26 @@
 	culture = tethyrian
 	religion = evil_human_pantheon
 	female = yes
-	give_nickname = nick_the_blackhearted
 	disallow_random_traits = yes
 	trait = creature_human
-	trait = bio_amelyssan
-	trait = shrewd
 	#trait = bastard
-	trait = legendary_cleric
-	trait = legendary_wizard
-	#trait = bhaalspawn
-	trait = deceitful
-	trait = cruel
-	trait = ambitious
-	trait = diligent
-	trait = schemer
-	trait = elusive_shadow
-	trait = patron_bhaal
 	#father = 2
 	1330.1.1 = { birth = yes }
+	1346.1.1 = {
+		trait = bio_amelyssan
+		give_nickname = nick_the_blackhearted
+		trait = shrewd
+		trait = legendary_cleric
+		trait = legendary_wizard
+		trait = bhaalspawn #do not remove this
+		trait = deceitful
+		trait = cruel
+		trait = ambitious
+		trait = diligent
+		trait = schemer
+		trait = elusive_shadow
+		trait = patron_bhaal
+	}
 	1369.1.1 = {
 		death = { death_reason = death_duel killer = 3}
 	}
@@ -373,7 +380,10 @@
 	trait = absent
 	trait = expert_barbarian
 	70.1.1 = { birth = yes }
-	1369.1.1 = { remove_trait = absent }	
+	86.1.1 = {
+		immortal_age = 16
+	}
+	1369.1.1 = { remove_trait = absent }
 	1374.8.20 = {death = yes}
 }
 24 = {
@@ -444,7 +454,6 @@
 	trait = wizard
 	150.1.1 = { 
 		birth = yes 
-		effect = { set_graphical_culture = sun_elf }
 	}
 	1369.1.1 = {
 		remove_trait = absent
@@ -688,7 +697,6 @@
 	trait = absent
 	125.1.1 = { 
 		birth = yes 
-		effect = { set_graphical_culture = sun_elf }
 	}
 	1369.1.1 = {
 		remove_trait = absent
@@ -837,7 +845,7 @@
 	religion = abyssal_cult
 	trait = creature_feyri
 	trait = absent
-	77.1.1 = { birth = yes }
+	74.1.1 = { birth = yes }
 	300.1.1 = { death = yes }
 }
 52 = {
@@ -852,7 +860,6 @@
 	trait = absent
 	45.1.1 = { 
 		birth = yes 
-		effect = { set_graphical_culture = sun_elf }
 	}
 	120.1.1 = { death = yes }
 }
@@ -1246,6 +1253,7 @@
 	learning = 8
 	766.1.1 = { birth = yes }
 	782.1.1 = {
+		trait = sympathy_many
 		add_trait = patron_mystra
 		add_trait = wroth
 		add_trait = uncouth
@@ -1283,19 +1291,23 @@
 	religion = good_human_pantheon #also worships Eilistrae
 	disallow_random_traits = yes
 	trait = creature_drow
-	trait = grey_eminence
 	trait = beautiful
 	trait = quick
-	trait = master_cleric
-	trait = chosen_of_mystra
-	#trait = patron_mystra #she venerates both but our patron system localization wigs out with 2 patrons
-	trait = patron_eilistraee
-	trait = kind
-	trait = diligent
-	trait = humble
-	trait = gregarious
-	give_nickname = nick_the_dark_sister
 	767.1.1 = { birth = yes }
+	783.1.1 = {
+		trait = master_cleric
+		trait = chosen_of_mystra
+		#trait = patron_mystra #she venerates both but our patron system localization wigs out with 2 patrons
+		trait = patron_eilistraee
+		trait = kind
+		trait = diligent
+		trait = humble
+		trait = gregarious
+		trait = sympathy_many
+		trait = grey_eminence
+		give_nickname = nick_the_dark_sister
+		immortal_age = 16
+	}
 	785.1.1 = {
 		effect = {
 			add_friend = 7079
@@ -1442,11 +1454,19 @@
 	trait = proud
 	trait = greedy
 	trait = wroth
+	trait = absent
 	150.1.1 = { birth = yes }
 	1018.1.1 = {
 		add_trait = avatar
 	}
+	1373.12.28 = {
+		remove_trait = absent
+	}
+	1385.4.29 = {
+		add_trait = absent
+	}
 	1479.1.1 = {
+		remove_trait = absent
 		add_trait = lunatic
 	}
 	1500.1.1 = { death = yes }
@@ -1454,14 +1474,16 @@
 114 = {
 	name = "Draconis"
 	dynasty = 4168 # Abazigal
-	culture = draconic
+	culture = tethyrian
 	religion = evil_human_pantheon
 	trait = creature_human
 	trait = half_dragon
 	trait = expert_sorcerer
 	trait = journeyman_fighter
 	father = 6
-	1349.1.1 = { birth = yes }
+	1349.1.1 = {
+		birth = yes
+	}
 	1369.1.1 = {
 		death = { death_reason = death_duel killer = 3}
 	}
@@ -1479,7 +1501,7 @@
 	name = "Moander"
 	#Moander is genderfluid and/or nonbinary, by the looks of it. But that can't be represented in CK2.
 	dynasty = 34 # Moander
-	culture = moonsea # For lack of a better one
+	culture = nalfeshnee # This is the Greater Demon of Nurgle gfx set - there aren't any canon pictures of Moander's avatar while alive, and the one of it dead from 'Pools of Darkness' wasn't suitable
 	religion = evil_human_pantheon
 	martial = 30 
 	diplomacy = 25 
@@ -1497,9 +1519,7 @@
 	trait = legendary_fighter
 	1.1.1 = { 
 		birth = yes
-		effect = {
-			set_graphical_culture = nalfeshnee # This is the Greater Demon of Nurgle gfx set - there aren't any canon pictures of Moander's avatar while alive, and the one of it dead from 'Pools of Darkness' wasn't suitable
-		}
+		culture = planar
 	}
 	1357.1.1 = {
 		remove_trait = absent
@@ -1523,6 +1543,7 @@
 		add_trait = ranger
 	}
 	1313.1.1 = { 
+		trait = sympathy_many
 		add_trait = skilled_tactician
 		add_trait = diligent
 		add_trait = kind
@@ -1607,6 +1628,7 @@
 	intrigue = 15
 	stewardship = 10
 	trait = rd_half_fiend #cambion
+	trait = creature_tiefling
 	trait = lich
 	trait = genius
 	trait = legendary_wizard
@@ -1616,9 +1638,9 @@
 	trait = cynical
 	trait = impaler
 	trait = elusive_shadow
+	trait = absent
 	1.1.1 = {
 		birth = yes #on Oerth
-		add_trait = absent
 		culture = oeridian
 		give_nickname = nick_the_devourer
 	}

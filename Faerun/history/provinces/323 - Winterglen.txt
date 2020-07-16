@@ -16,13 +16,17 @@ b_taeya = city
 
 # Misc
 culture = sun_elf
-religion = elven_pantheon
+religion = earthmother
 terrain = forest
 #History
 201.1.1 = {
 	culture = ffolk
-	religion = earthmother
 }
 1346.1.1 = {
 	religion = chauntean_faith
+}
+1377.1.1 = {
+	remove_settlement = b_taeya
+	culture = ogre
+	religion = sylvan
 }

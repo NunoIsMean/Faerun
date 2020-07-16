@@ -933,7 +933,7 @@ nick_the_cannibal = {
 	}
 }
 
-nick_the_frail = {
+nick_the_feeble = {
 	allow = {
 		age = 16
 		OR = {

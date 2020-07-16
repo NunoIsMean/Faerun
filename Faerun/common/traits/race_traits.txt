@@ -49,6 +49,7 @@ rd_half_moon_elf = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -102,6 +103,7 @@ rd_half_sun_elf = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -155,6 +157,7 @@ rd_half_green_elf = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -208,6 +211,7 @@ rd_half_wood_elf = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -260,6 +264,7 @@ rd_half_drow = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -310,6 +315,7 @@ rd_half_orc = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -341,6 +347,7 @@ rd_tanarukk = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -392,6 +399,7 @@ rd_half_fiend = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -423,6 +431,7 @@ rd_half_dragon = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -473,6 +482,7 @@ rd_half_ogre = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -507,6 +517,7 @@ rd_ogrillon = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -556,6 +567,7 @@ rd_spirit_folk = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -606,6 +618,7 @@ rd_hagspawn = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -637,6 +650,7 @@ rd_malison = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -668,6 +682,7 @@ rd_abomination = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -717,6 +732,7 @@ rd_tiefling = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -766,6 +782,7 @@ rd_aasimar = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -815,6 +832,7 @@ rd_air_genasi = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -864,6 +882,7 @@ rd_earth_genasi = {
 		rd_fire_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -913,6 +932,7 @@ rd_fire_genasi = {
 		rd_earth_genasi
 		rd_water_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -962,6 +982,7 @@ rd_water_genasi = {
 		rd_fire_genasi
 		rd_earth_genasi
 		rd_half_feyri
+		rd_half_giant
 	}
 }
 
@@ -1012,6 +1033,58 @@ rd_half_feyri = {
 		rd_fire_genasi
 		rd_earth_genasi
 		rd_water_genasi
+		rd_half_giant
+	}
+}
+
+rd_half_giant = {
+	customizer = yes
+	random = no
+	potential = {
+		OR = {
+			culture_group = katashakan_group
+			culture_group = illuskan_group
+			culture_group = imaskari_group
+			culture_group = chondathan_group
+			culture_group = kara_turan_group
+			culture_group = lapal_group
+			culture_group = maztican_group
+			culture_group = mulan_group
+			culture_group = damaran_group
+			culture_group = netherese_group
+			culture_group = raum_group
+			culture_group = shaaran_group
+			culture_group = tethyrian_group
+			culture_group = calishite_group
+			culture_group = taan_group
+			culture_group = turami_group
+			culture_group = uluik_group
+			culture_group = zakharan_group
+		}
+	}
+	opposites = {
+		rd_half_moon_elf
+		rd_half_sun_elf
+		rd_half_green_elf
+		rd_half_wood_elf
+		rd_half_drow
+		rd_half_orc
+		rd_tanarukk
+		rd_half_fiend
+		rd_half_dragon
+		rd_half_ogre
+		rd_hagspawn
+		rd_ogrillon
+		rd_spirit_folk
+		rd_malison
+		rd_abomination
+		rd_aasimar
+		rd_air_genasi
+		rd_fire_genasi
+		rd_earth_genasi
+		rd_water_genasi
+		rd_half_feyri
+		rd_tiefling
 	}
 }
 
@@ -1025,6 +1098,7 @@ creature_drow = {
 	intrigue = 1
 	combat_rating = 5
 	health = -1
+	same_opinion = 10
 	same_opinion_if_same_religion = 20
 	sex_appeal_opinion = 10
 	good_human_pantheon_group_opinion = -20
@@ -1038,6 +1112,7 @@ creature_elf = {
 	immortal = yes
 	diplomacy = 1
 	intrigue = 1
+	same_opinion = 10
 }
 
 creature_half_elf = {
@@ -1045,6 +1120,7 @@ creature_half_elf = {
 	random = no
 	immortal = yes
 	diplomacy = 2
+	same_opinion = 10
 }
 
 creature_feyri = {
@@ -1061,6 +1137,16 @@ creature_feyri = {
 	same_opinion_if_same_religion = 30
 }
 
+creature_eladrin = { # Technically fey too
+	customizer = no
+	random = no
+	immortal = yes
+	diplomacy = 1
+	learning = 1
+	sylvan_opinion = 20
+	same_opinion = 10
+}
+
 #FEY
 
 creature_treant = {
@@ -1072,6 +1158,7 @@ creature_treant = {
 	diplomacy = -3
 	learning = -2
 	combat_rating = 25
+	same_opinion = 10
 	same_religion_opinion = 10
 	elven_pantheon_group_opinion = 20
 	evil_human_pantheon_group_opinion = -20
@@ -1085,6 +1172,7 @@ creature_centaur = {
 	combat_rating = 5
 	diplomacy = -1
 	immortal = yes
+	same_opinion = 10
 	elven_pantheon_group_opinion = 10
 	deities_of_fury_opinion = -10
 }
@@ -1096,6 +1184,7 @@ creature_wemic = {
 	combat_rating = 5
 	stewardship = -1
 	deities_of_fury_opinion = -10
+	same_opinion = 10
 }
 	
 #DWARVES
@@ -1106,6 +1195,7 @@ creature_dwarf = {
 	health = 2
 	martial = 1
 	stewardship = 1
+	same_opinion = 10
 }
 
 
@@ -1119,6 +1209,62 @@ creature_giant = {
 	diplomacy = -3
 	intrigue = -3
 	combat_rating = 30
+	same_opinion = 10
+}
+
+creature_half_giant = {
+	customizer = no
+	random = no
+	martial = 2
+	combat_rating = 15
+	health = 1
+	intrigue = -2
+	diplomacy = -1
+	same_opinion = 10
+}
+
+creature_ogre = {
+	customizer = no
+	random = no
+	martial = 3
+	diplomacy = -2
+	learning = -2
+	combat_rating = 15
+	same_opinion = 10
+}
+
+creature_half_ogre = {
+	customizer = no
+	random = no
+	martial = 1
+	diplomacy = 1
+	learning = -1
+	combat_rating = 10
+	same_opinion = 10
+}
+
+creature_ogrillon = {
+	customizer = no
+	random = no
+	martial = 3
+	diplomacy = -2
+	stewardship = -2
+	combat_rating = 10
+	same_opinion = 10
+}
+
+creature_troll = {
+	customizer = no
+	random = no
+	martial = 3
+	diplomacy = -3
+	learning = -3
+	stewardship = -1
+	health = 4
+	immortal = yes
+	combat_rating = 15
+	same_opinion = 30
+	general_opinion = -25
 }
 
 #GNOME
@@ -1131,6 +1277,7 @@ creature_gnome = {
 	stewardship = 1
 	martial = -1
 	combat_rating = -5
+	same_opinion = 10
 }
 
 #creature_svirfneblin = {
@@ -1144,6 +1291,7 @@ creature_gith = {
 	immortal = yes
 	martial = 1
 	learning = 1
+	same_opinion = 10
 }
 
 #GOBLINOID
@@ -1155,6 +1303,7 @@ creature_goblin = {
 	martial = 1
 	diplomacy = -2
 	learning = -2
+	same_opinion = 20
 	good_human_pantheon_group_opinion = -30
 	elven_pantheon_group_opinion = -30
 	dwarven_pantheon_group_opinion = -30
@@ -1166,6 +1315,7 @@ creature_hobgoblin = {
 	martial = 3
 	stewardship = -2
 	combat_rating = 5
+	same_opinion = 20
 	good_human_pantheon_group_opinion = -30
 	elven_pantheon_group_opinion = -30
 	dwarven_pantheon_group_opinion = -30
@@ -1179,6 +1329,7 @@ creature_bugbear = {
 	learning = -2
 	stewardship = -2
 	combat_rating = 10
+	same_opinion = 20
 	good_human_pantheon_group_opinion = -30
 	elven_pantheon_group_opinion = -30
 	dwarven_pantheon_group_opinion = -30
@@ -1193,6 +1344,7 @@ creature_gnoll = {
 	learning = -3
 	stewardship = -2
 	combat_rating = 10
+	same_opinion = 20
 	good_human_pantheon_group_opinion = -40
 	elven_pantheon_group_opinion = -40
 	dwarven_pantheon_group_opinion = -30
@@ -1204,6 +1356,7 @@ creature_hag = {
 	random = no
 	learning = 4
 	diplomacy = -2
+	same_opinion = 30
 	good_human_pantheon_group_opinion = -40
 	elven_pantheon_group_opinion = -40
 	dwarven_pantheon_group_opinion = -40
@@ -1215,6 +1368,7 @@ creature_halfling = {
 	customizer = no
 	random = no
 	same_religion_opinion = 10
+	same_opinion = 10
 	intrigue = 1
 }
 
@@ -1225,6 +1379,7 @@ creature_human = {
 	random = no
 	diplomacy = 1
 	martial = 1
+	same_opinion = 10
 }
 
 #ILLITHID
@@ -1235,6 +1390,8 @@ creature_illithid = {
 	diplomacy = -1
 	martial = -1
 	learning = 2
+	same_opinion = 80
+	general_opinion = -50
 }
 
 #MINOTAUR
@@ -1246,6 +1403,17 @@ creature_minotaur = {
 	diplomacy = -1
 	learning = -1
 	combat_rating = 15
+	same_opinion = 10
+}
+
+creature_yikarian = {
+	customizer = no
+	random = no
+	martial = 1
+	intrigue = 3
+	diplomacy = -3
+	combat_rating = 5
+	same_opinion = 20
 }
 
 #ORC
@@ -1257,6 +1425,7 @@ creature_orc = {
 	diplomacy = -2
 	stewardship = -1
 	combat_rating = 10
+	same_opinion = 10
 	good_human_pantheon_group_opinion = -20
 	elven_pantheon_group_opinion = -20
 	dwarven_pantheon_group_opinion = -20
@@ -1268,7 +1437,7 @@ creature_half_orc = {
 	martial = 1
 	combat_rating = 5
 	general_opinion = -10
-	same_opinion = 20
+	same_opinion = 30
 	good_human_pantheon_group_opinion = -10
 	elven_pantheon_group_opinion = -10
 	dwarven_pantheon_group_opinion = -10
@@ -1282,49 +1451,10 @@ creature_tanarukk = {
 	learning = -1
 	stewardship = -1
 	combat_rating = 5
+	same_opinion = 10
 	good_human_pantheon_group_opinion = -30
 	elven_pantheon_group_opinion = -30
 	dwarven_pantheon_group_opinion = -30
-}
-
-#OGRE
-
-creature_ogre = {
-	customizer = no
-	random = no
-	martial = 3
-	diplomacy = -2
-	learning = -2
-	combat_rating = 15
-}
-
-creature_half_ogre = {
-	customizer = no
-	random = no
-	martial = 1
-	diplomacy = 1
-	learning = -1
-	combat_rating = 10
-}
-
-creature_ogrillon = {
-	customizer = no
-	random = no
-	martial = 3
-	diplomacy = -2
-	stewardship = -2
-	combat_rating = 10
-}
-
-#YIKARIAN
-
-creature_yikarian = {
-	customizer = no
-	random = no
-	martial = 1
-	intrigue = 3
-	diplomacy = -3
-	combat_rating = 5
 }
 
 #UNDEAD
@@ -1358,6 +1488,21 @@ creature_toad = {
 
 #Scalykind
 
+#Sarrukh
+
+creature_sarrukh = {
+	customizer = no
+	immortal = yes
+	random = no
+	martial = 1
+	diplomacy = 1
+	learning = 1
+	stewardship = 1
+	intrigue = 1
+	combat_rating = 5
+	same_religion_opinion = 20
+}
+
 #Yuan-Ti
 
 creature_pureblood = {
@@ -1365,6 +1510,7 @@ creature_pureblood = {
 	random = no
 	intrigue = 1
 	martial = 1
+	same_opinion = 10
 }	
 
 creature_malison = {
@@ -1373,6 +1519,7 @@ creature_malison = {
 	martial = 2
 	diplomacy = -1
 	combat_rating = 5
+	same_opinion = 10
 }
 
 creature_abomination = {
@@ -1382,6 +1529,7 @@ creature_abomination = {
 	diplomacy = -1
 	stewardship = -1
 	combat_rating = 10
+	same_opinion = 10
 	same_religion_opinion = 10
 }
 
@@ -1391,6 +1539,7 @@ creature_lizardfolk = {
 	customizer = no
 	random = no
 	martial = 1
+	same_opinion = 20
 }		
 
 #nagas
@@ -1403,7 +1552,7 @@ creature_naga = {
 	diplomacy = 1
 	learning = 1
 	combat_rating = 10
-	same_religion_opinion = 10
+	same_religion_opinion = 20
 }
 
 #Dragonborn
@@ -1416,6 +1565,7 @@ creature_dragonborn = {
 	learning = -1
 	combat_rating = 5
 	health = 1
+	same_opinion = 10
 }	
 
 #Character Dragon
@@ -1430,14 +1580,131 @@ creature_dragon = {
 	immortal = yes
 	combat_rating = 20
 	health = 4
+	same_opinion = 10
+}
+ #Chromatic Dragons
+creature_red_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	diplomacy = 2
+	martial = 2
 }
 
+creature_black_dragon = { 
+	customizer = no
+	random = no
+	same_opinion = 10
+	intrigue = 2
+	martial = 2
+}
+creature_blue_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	diplomacy = 1
+	stewardship = 2
+	learning = 1
+}
+creature_green_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	intrigue = 2
+	diplomacy = 2
+}
+
+creature_white_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	general_opinion = -5 #Savage, even by dragon standards
+	martial = 4
+}
+#Gem Dragons
+creature_amethyst_dragon = { 
+	customizer = no
+	random = no
+	same_opinion = 10
+	diplomacy = 2
+	learning = 2
+}
+creature_crystal_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	diplomacy = 3
+	intrigue = 1
+}
+creature_emerald_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	intrigue = 2 
+	learning = 2
+}
+creature_sapphire_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	martial = 2 #strongest of the gem dragons
+	learning = 2
+}
+creature_topaz_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	learning = 1
+	intrigue = 1
+	martial = 1
+	stewardship = 1 #Isolationist generalists
+}
+#Metallic Dragons
+creature_brass_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	general_opinion = 5 #super friendly
+	diplomacy = 3 #have many friends..
+	martial = 1  #and just as many enemies.
+}
+creature_bronze_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	stewardship = 3 
+	diplomacy = 1
+}
+creature_copper_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	martial = 1
+	intrigue = 3 #Tricksters
+}
+creature_gold_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	stewardship = 2 #Overall, good rulers
+	diplomacy = 1
+	intrigue = 1
+}
+creature_silver_dragon = {
+	customizer = no
+	random = no
+	same_opinion = 10
+	martial = 2
+	learning = 1
+	diplomacy = 1
+}
 #Saurial
 creature_saurial = {
 	customizer = no
 	random = no
 	martial = 2
 	combat_rating = 5
+	same_opinion = 10
 }
 
 #Pterafolk
@@ -1446,6 +1713,7 @@ creature_pterafolk = {
 	random = no
 	diplomacy = 1
 	martial = 1
+	same_opinion = 20
 }
 
 #Kobolds
@@ -1454,6 +1722,7 @@ creature_kobold = {
 	random = no
 	intrigue = 3
 	combat_rating = -5
+	same_opinion = 10
 }
 
 # Flyers
@@ -1465,6 +1734,7 @@ creature_tengu = {
 	intrigue = 2
 	diplomacy = 1
 	combat_rating = -5
+	same_opinion = 10
 }
 
 #Monsters
@@ -1472,12 +1742,15 @@ creature_tengu = {
 creature_monster = {
 	customizer = no
 	random = no
+	immortal = yes
 	cannot_marry = yes
 	cannot_inherit = yes
+	fertility = -50000
 }
 
 creature_beholder = {
 	same_opinion = -20 # they hate each other
+	sex_appeal_opinion = -10
 	intrigue = 2
 	combat_rating = 25
 	diplomacy = -1
@@ -1485,6 +1758,9 @@ creature_beholder = {
 	immortal = yes
 	customizer = no
 	random = no
+	good_human_pantheon_group_opinion = -50
+	elven_pantheon_group_opinion = -50
+	dwarven_pantheon_group_opinion = -50
 }
 
 creature_minotaur_male = {
@@ -1516,30 +1792,6 @@ creature_frost_giant_female = {
 	customizer = no
 	random = no
 }
-
-creature_red_dragon = {
-	customizer = no
-	random = no
-}
-
-creature_black_dragon = {
-	customizer = no
-	random = no
-}
-creature_blue_dragon = {
-	customizer = no
-	random = no
-}
-creature_green_dragon = {
-	customizer = no
-	random = no
-}
-
-creature_white_dragon = {
-	customizer = no
-	random = no
-}
-
 #PLANETOUCHED
 
 creature_genasi = {
@@ -1547,6 +1799,7 @@ creature_genasi = {
 	random = no
 	stewardship = 1
 	diplomacy = 1
+	same_opinion = 10
 }
 
 creature_tiefling = {
@@ -1554,7 +1807,7 @@ creature_tiefling = {
 	random = no
 	learning = 1
 	intrigue = 1
-	same_opinion_if_same_religion = 20
+	same_opinion_if_same_religion = 30
 	sex_appeal_opinion = 5
 	good_human_pantheon_group_opinion = -10
 	elven_pantheon_group_opinion = -10
@@ -1566,7 +1819,7 @@ creature_aasimar = {
 	random = no
 	learning = 1
 	stewardship = 1
-	same_opinion_if_same_religion = 20
+	same_opinion_if_same_religion = 30
 	sex_appeal_opinion = 5
 	good_human_pantheon_group_opinion = 10
 	evil_human_pantheon_group_opinion = -10
@@ -1640,5 +1893,6 @@ creature_genie = {
 	diplomacy = 2
 	combat_rating = 10
 	same_opinion_if_same_religion = 15
+	same_opinion = 10
 	zakharan_group_opinion = 10
 }

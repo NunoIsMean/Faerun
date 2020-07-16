@@ -16,7 +16,7 @@ b_cambro = city
 
 # Misc
 culture = sun_elf
-religion = elven_pantheon
+religion = earthmother
 terrain = hills
 #History
 544.1.1 = {
@@ -33,4 +33,8 @@ terrain = hills
 }
 1346.1.1 = {
 	religion = chauntean_faith
+}
+1378.1.1 = {
+	culture = eladrin
+	religion = sylvan
 }

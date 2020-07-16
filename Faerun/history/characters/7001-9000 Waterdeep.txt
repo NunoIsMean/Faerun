@@ -76,6 +76,7 @@
 	trait = fair
 	trait = expert_wizard
 	trait = patron_tyr
+	trait = creature_human
 	1310.1.1 = { birth = yes }
 	1344.1.1 = { death = yes }
 }
@@ -123,13 +124,8 @@
 	culture = highcoaster
 	disallow_random_traits = yes
 	trait = creature_human
-	trait = legendary_wizard
 	trait = genius
-	trait = elusive_shadow
-	trait = shrewd
-	trait = chosen_of_mystra
-	trait = patron_mystra
-	trait = bio_khelben
+
 	414.1.1 = {
 		birth = yes
 		effect = {
@@ -143,12 +139,18 @@
 		trait = deceitful
 		trait = erudite
 		trait = kind
+		trait = sympathy_many
+		trait = elusive_shadow
+		trait = shrewd
+		trait = chosen_of_mystra
+		trait = patron_mystra
+		trait = bio_khelben
+		trait = legendary_wizard
 	}
 	444.1.1 = {
 		immortal_age = 30
 	}
 	464.1.1 = { # Estimate
-		trait = immortal
 		trait = schemer
 	}
 	1315.1.1 = {
@@ -1246,9 +1248,6 @@
 	dynasty = 2400
 	father = 20210 # Dornal
 	mother = 20211 # Elu�
-	trait = immortal
-	trait = legendary_wizard
-	trait = chosen_of_mystra
 	trait = beautiful
 	learning = 8
 	diplomacy = 9
@@ -1267,11 +1266,16 @@
 		}
 	}
 	781.1.1 = {
+		trait = legendary_wizard
 		trait = charismatic_negotiator
 		trait = gregarious
 		trait = diligent
 		trait = kind
-		add_trait = patron_mystra
+		trait = honest
+		trait = administrator
+		trait = chosen_of_mystra
+		trait = patron_mystra
+		immortal_age = 16
 	}
 	790.1.1 = {
 		immortal_age = 25
@@ -2981,4 +2985,25 @@
 	trait = creature_human
 	1250.1.1 = { birth = yes }
 	1318.1.1 = { death = yes }
+}
+
+7221 = {
+	name = "Eddard"
+	dynasty = 555 #Greenwoods
+	culture = highcoaster
+	religion = good_human_pantheon
+	trait = quick
+	trait = creature_human
+	trait = trained_bard
+	trait = charismatic_negotiator
+	trait = scholar
+	trait = poet
+	trait = patient
+	trait = content
+	1339.7.21 = { 
+		birth = yes 
+		employer = 7001
+	}
+	1372.1.1 = { employer = 15001 }
+	1433.3.7 = { death = yes }
 }

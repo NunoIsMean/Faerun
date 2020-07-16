@@ -2217,7 +2217,7 @@ character_event = {
     }
 }
 
-#Soul corruption adds frail
+#Soul corruption adds feeble
 character_event = {
     id = MNM.7059
     desc = EVTDESC_MNM_7059
@@ -7414,7 +7414,7 @@ character_event = {
 				}
 				set_character_flag = orgy_gain_robust
 			}
-			100 = { # Gain the "Feeble" trait
+			100 = { # Gain the "feeble" trait
 				modifier = {
 					factor = 0
 					trait = feeble

@@ -63,7 +63,7 @@ character_event = {
 		if = {
 			limit = {
 				capital_scope = {
-					OR = {
+					OR = { #change these
 						region = world_steppe
 						region = world_persia
 					}
@@ -512,6 +512,7 @@ character_event = {
 					is_landless_type_title = no
 				}
 				NOR = {
+					evilcat_is_too_monstrous = yes
 					is_rival = ROOT
 					trait = incapable
 					prisoner = yes
@@ -1954,7 +1955,7 @@ character_event = {
 			limit = {
 				NOT = {
 					OR = {
-						religion_group = indian_group
+						religion_group = karaturan_group
 						religion_group = pagan_group
 					}
 				}
@@ -3050,10 +3051,7 @@ character_event = {
 	option = {
 		trigger = {
 			NOT = {
-				OR = {
-					religion_group = muslim
-					religion = iconoclast
-				}
+				religion_group = zakharan_group
 			}
 		}
 		name = EVTOPTB_WOL_10302
@@ -3109,7 +3107,7 @@ character_event = {
 		trigger = {
 			OR = {
 				trait = decadent
-				NOT = { religion_group = muslim }
+				NOT = { religion_group = zakharan_group }
 			}
 		}
 		name = EVTOPTB_WOL_10303

@@ -72,6 +72,10 @@ character_event = {
 			factor = 0.6
 			BR_long_lived_races = yes
 		}
+		modifier = {
+			factor = 0.3
+			evilcat_is_true_immortal = yes
+		}
 	}
 	
 	option = {
@@ -116,6 +120,11 @@ character_event = {
 		modifier = {
 			factor = 0.6
 			BR_long_lived_races = yes
+			health=12
+		}
+		modifier = {
+			factor = 0.3
+			evilcat_is_true_immortal = yes
 			health=12
 		}
 	}
@@ -183,7 +192,10 @@ character_event = {
 			factor = 0.6
 			BR_long_lived_races = yes
 		}
-		
+		modifier = {
+			factor = 0.3
+			evilcat_is_true_immortal = yes
+		}
 	}
 	
 	option = {
@@ -426,7 +438,14 @@ character_event = {
 			factor = 0.9
 			BR_long_lived_races = yes
 		}
-		
+		modifier = {
+			factor = 0.5
+			evilcat_is_true_immortal = yes
+		}
+		modifier = {
+			factor = 0.5
+			evilcat_is_chosen = yes
+		}
 		modifier = {
 			factor = 1.6
 			age = 200
@@ -928,6 +947,7 @@ character_event = {
 				name = non_epidemic_diseases
 				value = none
 			}
+			evilcat_is_disease_immune = yes
 		}
 	}
 	
@@ -3764,16 +3784,6 @@ character_event = {
 				value = off
 			}
 		}
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-			religion = slavic_pagan
-			religion = slavic_pagan_reformed
-			religion = baltic_pagan
-			religion = baltic_pagan_reformed
-			religion = finnish_pagan
-			religion = finnish_pagan_reformed
-		}
 		NOT = { has_character_flag = the_old_ones_are_waking }
 		NOT = { is_inaccessible_trigger = yes }
 	}
@@ -3826,16 +3836,6 @@ character_event = {
 				value = off
 			}
 		}
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-			religion = slavic_pagan
-			religion = slavic_pagan_reformed
-			religion = baltic_pagan
-			religion = baltic_pagan_reformed
-			religion = finnish_pagan
-			religion = finnish_pagan_reformed
-		}
 		NOT = { has_character_flag = the_old_ones_are_waking }
 		NOT = { is_inaccessible_trigger = yes }
 	}
@@ -3887,16 +3887,6 @@ character_event = {
 				name = supernatural_events
 				value = off
 			}
-		}
-		OR = {
-			religion = norse_pagan
-			religion = norse_pagan_reformed
-			religion = slavic_pagan
-			religion = slavic_pagan_reformed
-			religion = baltic_pagan
-			religion = baltic_pagan_reformed
-			religion = finnish_pagan
-			religion = finnish_pagan_reformed
 		}
 		NOT = { has_character_flag = the_old_ones_are_waking }
 		NOT = { is_inaccessible_trigger = yes }

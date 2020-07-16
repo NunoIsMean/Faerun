@@ -55,6 +55,47 @@
 39 = { name = "Darkmantle" culture = moonsea }
 40 = { name = "Spellseer" culture = amnian used_for_random = no }
 41 = { name = "Spulzeer" culture = amnian used_for_random = no }
+42 = { name = "Thauglorimorgorus" culture = draconic used_for_random = no }
+43 = { name = "Mirantol" culture = draconic used_for_random = no }
+44 = { name = "Shadowscale" culture = lizardfolk used_for_random = no }
+45 = { name = "Haarn" culture = northlander used_for_random = no }
+46 = { name = "Rimeaxe" culture = frost_giant }
+47 = { name = "Rolsk" culture = northlander }
+48 = { name = "Riever" culture = northlander }
+49 = { name = "Krigvind" culture = frost_giant used_for_random = no }
+50 = { name = "Sturm" culture = storm_giant used_for_random = no }
+51 = { name = "Iymrith" culture = draconic used_for_random = no }
+52 = { name = "Viledel" culture = northlander used_for_random = no }
+53 = { name = "Dorrg" culture = northlander }
+54 = { name = "Cacelmeros" culture = sun_elf }
+55 = { name = "Daressin" culture = amnian used_for_random = no }
+56 = { name = "Drakship" culture = northlander }
+57 = { name = "Sarifal" culture = eladrin used_for_random = no }
+58 = { name = "Autumnbreeze" culture = eladrin }
+59 = { name = "Wendryll" culture = sun_elf }
+60 = { name = "Gallus" culture = talfir }
+61 = { name = "Fife" culture = ffolk }
+62 = { name = "Godwynn" culture = ffolk }
+63 = { name = "Clemson" culture = ffolk }
+64 = { name = "Fomorach" culture = fomorian }
+65 = { name = "Derallinor" culture = sun_elf }
+66 = { name = "Feinn" culture = ffolk }
+67 = { name = "Dreamstealer" culture = hag used_for_random = no }
+68 = { name = "Invel" culture = sun_elf }
+69 = { name = "Revaran" culture = sun_elf }
+70 = { name = "Glarauk" culture = fomorian }
+71 = { name = "Myrrim" culture = sun_elf }
+72 = { name = "Nhyme" culture = ffolk }
+73 = { name = "McGall" culture = ffolk }
+74 = { name = "Llewellyn" culture = ffolk used_for_random = no }
+75 = { name = "Rookoath" culture = shield_dwarf used_for_random = no }
+76 = { name = "Rockbash" culture = troll }
+77 = { name = "Drakefang" culture = kobold }
+78 = { name = "Rusthelm" culture = goblin }
+79 = { name = "Bloodsea" culture = orc used_for_random = no }
+80 = { name = "Bleakcoast" culture = northlander }
+81 = { name = "Stormrider" culture = northlander }
+82 = { name = "Doomclaw" culture = baatezu }
 
 100 = { name = "Baenre" culture = drow}
 101 = { name = "Barrison Del'Armgo" culture = drow }
@@ -186,6 +227,7 @@
 552 = { name = "Spellguard" culture = cormyrian }
 553 = { name = "Cimber" culture = cormyrian }
 554 = { name = "Rayburton" culture = cormyrian }
+555 = { name = "Greenwoods" culture = cormyrian }
 
 
 1000 = { name = "Axe Helm" culture=shield_dwarf }
@@ -284,7 +326,37 @@
 1093 = { name = "Melairkyn" culture = shield_dwarf used_for_random = no }
 1094 = { name = "Echoforge" culture = shield_dwarf }
 1095 = { name = "Strongarms" culture = gold_dwarf used_for_random = no }
-
+1096 = { name = "of Hrakhamar" culture = wild_dwarf }
+1097 = { name = "Brushforge" culture = wild_dwarf }
+1098 = { name = "Earthstone" culture = wild_dwarf }
+1099 = { name = "Fireheart" culture = wild_dwarf }
+1100 = { name = "Earthforge" culture = wild_dwarf }
+1101 = { name = "Leafbeard" culture = wild_dwarf }
+1102 = { name = "Brambleforge" culture = wild_dwarf }
+1103 = { name = "Bramblestone" culture = wild_dwarf }
+1104 = { name = "Brambleheart" culture = wild_dwarf }
+1105 = { name = "Leafheart" culture = wild_dwarf }
+1106 = { name = "Leafforge" culture = wild_dwarf }
+1107 = { name = "Earthheart" culture = wild_dwarf }
+1108 = { name = "Bugbeard" culture = wild_dwarf }
+1109 = { name = "Bugforge" culture = wild_dwarf }
+1110 = { name = "Bugstone" culture = wild_dwarf }
+1111 = { name = "Bugheart" culture = wild_dwarf }
+1112 = { name = "Stoneforge" culture = wild_dwarf }
+1113 = { name = "Stoneheart" culture = wild_dwarf }
+1114 = { name = "Stonebeard" culture = wild_dwarf }
+1115 = { name = "Drumbeard" culture = wild_dwarf }
+1116 = { name = "Heartdrum" culture = wild_dwarf }
+1117 = { name = "Stonedrum" culture = wild_dwarf }
+1118 = { name = "Bugdrum" culture = wild_dwarf }
+1119 = { name = "Firedrum" culture = wild_dwarf }
+1120 = { name = "Catbeard" culture = wild_dwarf }
+1121 = { name = "Catheart" culture = wild_dwarf }
+1122 = { name = "Forgecat" culture = wild_dwarf }
+1123 = { name = "Bonecat" culture = wild_dwarf }
+1124 = { name = "Boneforge" culture = wild_dwarf }
+1125 = { name = "Bonebeard" culture = wild_dwarf }
+1126 = { name = "Bonedrum" culture = wild_dwarf }
 
 1500 = { name = "Bonny" culture = illuskan }
 1501 = { name = "Morgan" culture = illuskan }
@@ -526,6 +598,7 @@
 2222 = { name = "Rolun" culture = heartlander }
 2223 = { name = "Jol" culture = heartlander }
 2224 = { name = "Burntsoul" culture = highcoaster used_for_random = no }
+2225 = { name = "Gygar" culture = highcoaster used_for_random = no }
 
 2300 = { name = "Myrmoran" culture = highcoaster used_for_random = no }
 2301 = { name = "Aulgaard" culture = northlander used_for_random = no }

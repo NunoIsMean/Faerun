@@ -16,12 +16,11 @@ b_hyoclaatl = city
 
 # Misc
 culture = sun_elf
-religion = elven_pantheon
+religion = earthmother
 
 #History
 144.1.1 = {
 	culture = talfir
-	religion = earthmother
 	b_wyngate = tribal
 	remove_settlement = b_hyoclaatl
 }
@@ -34,4 +33,8 @@ religion = elven_pantheon
 }
 1346.1.1 = {
 	religion = chauntean_faith
+}
+1380.1.1 = {
+	culture = eladrin
+	religion = sylvan
 }

@@ -144,7 +144,7 @@ rd_aasimar;Aasimar;;;;;;;;;;;;;x
 rd_aasimar_desc;This will cause you to start as an aasimar;;;;;;;;;;;;;x
 rd_air_genasi;Air Genasi;;;;;;;;;;;;;x
 rd_air_genasi_desc;This will cause you to start as an air genasi;;;;;;;;;;;;;x
-rd_earth_genasi;earth Genasi;;;;;;;;;;;;;x
+rd_earth_genasi;Earth Genasi;;;;;;;;;;;;;x
 rd_earth_genasi_desc;This will cause you to start as an earth genasi;;;;;;;;;;;;;x
 rd_fire_genasi;Fire Genasi;;;;;;;;;;;;;x
 rd_fire_genasi_desc;This will cause you to start as a fire genasi;;;;;;;;;;;;;x
@@ -152,6 +152,8 @@ rd_water_genasi;Water Genasi;;;;;;;;;;;;;x
 rd_water_genasi_desc;This will cause you to start as a water genasi;;;;;;;;;;;;;x
 rd_half_feyri;Half-Fey'ri;;;;;;;;;;;;;x
 rd_half_feyri_desc;This will cause you to start as a half-fey'ri;;;;;;;;;;;;;x
+rd_half_giant;Half-Giant;;;;;;;;;;;;;x
+rd_half_giant_desc;This will cause you to start as a half-giant;;;;;;;;;;;;;x
 GRAND_CABAL;Grand Cabal;;;;;;;;;;;;;x
 d_candlekairn;Candlekairn;;;;;;;;;;;;;x
 d_candlekairn_adj;Candlekairn;;;;;;;;;;;;;x
@@ -185,3 +187,9 @@ convert_to_divine_vassal;Adopt Religious Government;;;;;;;;;;;;;x
 convert_to_divine_vassal_desc;Adopting Religious Government will convert all my Tribal Holdings into Castles. Where this occurs - if the County is big enough - City and Temple Holdings will also be created if they do not already exist. Your vassals are likely to follow suit if they are of your religion and culture.;;;;;;;;;;;;;x
 recent_holy_war;Recent Holy War;;;;;;;;;;;;;x
 IS_RELIGIOUS_ENEMY;Must be a religious enemy of the target;;;;;;;;;;;;;x
+k_maelstrom;The Malestrom;;;;;;;;;;;;;x
+k_maelstrom_adj;Maelstromic;;;;;;;;;;;;;x
+STORM_KING;Storm King;;;;;;;;;;;;;x
+STORM_QUEEN;Storm Queen;;;;;;;;;;;;;x
+HIGH_LORD;High Lord;;;;;;;;;;;;;x
+HIGH_LADY;High Lady;;;;;;;;;;;;;x

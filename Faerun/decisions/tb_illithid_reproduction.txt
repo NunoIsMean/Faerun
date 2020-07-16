@@ -30,8 +30,25 @@ targetted_decisions = {
 				trait = creature_genasi
 				trait = creature_tiefling
 				trait = creature_aasimar
+				trait = creature_elf
+				trait = creature_drow
+				trait = creature_feyri
+				trait = creature_gnoll
+				trait = creature_orc
+				trait = creature_goblin
+				trait = creature_hobgoblin
+				trait = creature_bugbear
 			}
-			NOT = { age = 70 } # Just an arbitrary limit
+			AND = {
+				OR = {
+					NOR = {
+						trait = creature_elf
+						trait = creature_drow
+						trait = creature_feyri
+					}
+					NOT = { age = 70 } # Just an arbitrary limit
+				}
+			}
 		}
 		allow = {
 			FROM = {
@@ -108,15 +125,37 @@ targetted_decisions = {
 				}
 				character_event = { id = tb_illithid.1 }
 			}
+			export_to_variable = {
+				which = global_ceremorphosis_age
+				value = age
+			}
 			death = { death_reason = death_ceremorphosis killer = FROM }
 			create_character = {
-				age = 20 # I wish I could copy it from the host
+				age = 0
 				trait = creature_illithid
 				random_traits = no
 				employer = FROM
 				religion = FROM
 				culture = FROM
 				dynasty = FROM
+				recalc_succession = yes
+			}
+			new_character = {
+				add_age = global_ceremorphosis_age
+				if = {
+					limit = {
+						ROOT = {
+							OR = {
+								trait = creature_elf
+								trait = creature_drow
+								trait = creature_feyri
+							}
+						}
+					}
+					give_trait = longevity
+				}
+				evilcat_give_random_stats_effect = yes
+				recalc_succession = yes
 			}
 			random_list = {
 				9 = {

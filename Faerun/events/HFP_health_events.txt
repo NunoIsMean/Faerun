@@ -8130,7 +8130,7 @@ character_event = {
 }
 
 
-#Event for sturdy/frail teenage, chance to turn it into something else.
+#Event for sturdy/feeble teenage, chance to turn it into something else.
 #Chance of triggering in the adolescence event itself.
 character_event = {
 	id = HFP.20669
@@ -8376,7 +8376,7 @@ character_event = {
 	}
 }
 
-#Feeble becomes sturdy
+#feeble becomes sturdy
 character_event = {
 	id = HFP.20674
 	desc = {

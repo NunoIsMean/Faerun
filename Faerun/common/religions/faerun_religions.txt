@@ -15,7 +15,6 @@
 	# abyssal_cult
 	# loviatar
 	# infernal
-	# faceless
 	# kossuth
 # zakharan_group
 	# ten_thousand_gods
@@ -29,6 +28,7 @@
 # elven_pantheon_group
 	# elven_pantheon
 	# asathalfinare
+	# sylvan
 # drow_pantheon
 	# lolth_cult
 	# drow_polytheism
@@ -64,6 +64,10 @@
 	# faithless
 	# entropy
 	# adama
+#aberration_group
+	# beholder_pantheon
+	# illithid_pantheon
+	# faceless
 
 good_human_pantheon_group = {
 	has_coa_on_barony_only = yes
@@ -162,8 +166,8 @@ good_human_pantheon_group = {
 		can_retire_to_monastery = yes
 		psc_marriage = no
 		
-		uses_decadence = yes
-		uses_jizya_tax = yes
+		uses_decadence = no
+		uses_jizya_tax = no
 		
 		intermarry = ten_thousand_gods
 		intermarry = qisma
@@ -281,7 +285,7 @@ good_human_pantheon_group = {
 			gods_of_good
 		}
 		evil_god_names = {
-		gods_of_evil jergal moander
+			gods_of_evil jergal moander
 		}
 		
 		religious_clothing_head = 7
@@ -440,6 +444,7 @@ good_human_pantheon_group = {
 		aggression = 1.5 # AI aggression factor
 		
 		max_consorts = 3
+		women_can_take_consorts = yes
 		
 		religious_clothing_head = 11
 		religious_clothing_priest = 11
@@ -516,7 +521,7 @@ evil_human_pantheon_group = {
 		icon = 7
 		heresy_icon = 11
 		
-		color = { 0.1 0.3 0.65 }	
+		color = { 0.1 0.3 0.65 }
 		
 		high_god_name = bane
 		god_names = {
@@ -535,6 +540,7 @@ evil_human_pantheon_group = {
 		female_temple_holders = yes
 		allow_looting = yes
 		max_consorts = 1
+		women_can_take_consorts = yes
 		can_grant_divorce = yes
 				
 		religious_clothing_head = 3
@@ -590,6 +596,7 @@ evil_human_pantheon_group = {
 		female_temple_holders = yes
 		allow_looting = yes
 		max_consorts = 1
+		women_can_take_consorts = yes
 		can_grant_divorce = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
 		raised_vassal_opinion_loss = no
@@ -633,6 +640,7 @@ evil_human_pantheon_group = {
 		priests_can_marry = yes
 		allow_looting = yes
 		max_consorts = 1
+		women_can_take_consorts = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
 		raised_vassal_opinion_loss = no
 		aggression = 2.5
@@ -643,7 +651,7 @@ evil_human_pantheon_group = {
 		icon = 4	
 		heresy_icon = 4
 		
-		color = { 0.7 0.3 0.15 }
+		color = { 0.38 0.08 0.41 }
 		crusade_name = GREAT_HOLY_WAR
 		scripture_name = sacred_teachings
 		priest_title = HERESIARCH
@@ -673,6 +681,7 @@ evil_human_pantheon_group = {
 		priests_can_marry = yes
 		allow_looting = yes
 		max_consorts = 3
+		women_can_take_consorts = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
 		raised_vassal_opinion_loss = no
 		aggression = 4.5
@@ -758,42 +767,13 @@ evil_human_pantheon_group = {
 		priests_can_marry = yes
 		allow_looting = yes
 		max_consorts = 3
+		women_can_take_consorts = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
 		raised_vassal_opinion_loss = no
 		aggression = 4.5
 		intermarry = evil_human_pantheon
 		intermarry = deities_of_fury
 		intermarry = orc_pantheon		
-	}
-	faceless_god = {
-		graphical_culture = bodpagfx
-		alternate_start = { always = no }
-
-		icon = 29
-		heresy_icon = 29
-		
-		color = { 0.83 0.10 0.5 }
-
-		religious_clothing_head = 10
-		religious_clothing_priest = 10
-		
-		crusade_name = GREAT_HOLY_WAR
-		scripture_name = sacred_texts
-		priest_title = PRIEST
-		high_god_name = god_faceless_god
-		god_names = {
-			god_faceless_god
-		}
-		evil_god_names = {
-			Hajama Hakiyah Haku Jisan Kor Najm Selan Zann
-		}
-		has_heir_designation = yes
-		can_grant_claim = yes
-		can_call_crusade = yes
-		matrilineal_marriages = yes
-		can_grant_divorce = yes
-		allow_looting = yes
-		defensive_attrition = yes		
 	}
 	kossuth = {
 		graphical_culture = mongolgfx
@@ -837,6 +817,7 @@ evil_human_pantheon_group = {
 		
 		allow_looting = yes
 		max_consorts = 3
+		women_can_take_consorts = yes
 		
 		aggression = 2.0 # AI aggression factor
 		
@@ -1077,6 +1058,7 @@ karaturan_group = {
 		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
 		female_temple_holders = yes
 		max_consorts = 3
+		women_can_take_consorts = yes
 
 		short_reign_opinion_year_mult = 0 # No short reign penalty
 		
@@ -1117,6 +1099,7 @@ karaturan_group = {
 		can_grant_divorce = yes
 		priests_can_inherit = no
 		max_consorts = 3 # Can take concubines
+		women_can_take_consorts = yes
 		
 		short_reign_opinion_year_mult = 0 # No short reign penalty
 		religious_clothing_head = 10
@@ -1245,7 +1228,42 @@ elven_pantheon_group = {
 		can_retire_to_monastery = yes
 		
 		short_reign_opinion_year_mult = 1.5
-	}	
+	}
+	sylvan = {
+		graphical_culture = westerngfx
+
+		icon = 55
+		heresy_icon = 55
+		
+		color = { 0.78 0.79 0.25 }
+		
+		crusade_name = CRUSADE
+		scripture_name = sacred_teachings
+		priest_title = KEEPER
+		piety_name = PIETY
+		
+		high_god_name = silvanus
+		god_names = {
+			elven_gods skerrit nobanion archfey
+		}
+		evil_god_names = {
+			gods_of_evil bane cyric
+		}
+
+		religious_clothing_head = 18
+		religious_clothing_priest = 18
+		
+		female_temple_holders = yes
+		defensive_attrition = yes
+		has_heir_designation = yes
+		independence_war_score_bonus = 30
+		matrilineal_marriages = yes
+		raised_vassal_opinion_loss = no
+		feminist = yes
+		can_retire_to_monastery = yes
+		
+		short_reign_opinion_year_mult = 1
+	}
 }
 
 drow_pantheon = {
@@ -1274,9 +1292,9 @@ drow_pantheon = {
 		religious_clothing_head = 20
 		religious_clothing_priest = 20
 
+		max_consorts = 3
 		women_can_take_consorts = yes
 		men_can_take_consorts = no
-		max_consorts = 3
 		female_temple_holders = yes
 		defensive_attrition = yes
 		has_heir_designation = yes
@@ -1481,11 +1499,12 @@ goblin_pantheon_group = {
 		color = { 0.74 0.27 0.09 }
 		
 		crusade_name = CRUSADE
-		scripture_name = kartathok_teaching
+		scripture_name = maglubiyet_demands
 		priest_title = PRIEST
 		piety_name = PIETY
+		high_god_name = god_maglubiyet
 		god_names = {
-			Kartathok
+			god_maglubiyet god_khurgorbaeyag god_nomog_geaya god_bargrivyek god_hruggek god_grankhul
 		}
 		evil_god_names = {
 			gods_of_evil
@@ -1517,9 +1536,10 @@ goblin_pantheon_group = {
 		matrilineal_marriages = yes
 		can_grant_divorce = yes
 		allow_looting = yes
+
+		max_consorts = 2
 		women_can_take_consorts = yes
 		men_can_take_consorts = yes
-		max_consorts = 2
 		feminist = yes
 		allow_viking_invasion = yes
 		defensive_attrition = yes
@@ -1586,9 +1606,9 @@ orc_pantheon_group = {
 		short_reign_opinion_year_mult = 3
 		dislike_tribal_organization = yes
 		aggression = 1.5
-		intermarry = good_human_pantheon
+		intermarry = goblin_pantheon
 		intermarry = uthgardt_faith
-		intermarry = calishite_faith
+		intermarry = tuigan_shamanism
 		intermarry = deities_of_fury		
 	}
 }
@@ -1701,6 +1721,7 @@ draconic_group = {
 		can_grant_divorce = yes
 		allow_looting = yes
 		max_consorts = 2
+		women_can_take_consorts = yes
 		allow_viking_invasion = no
 		defensive_attrition = yes
 		peace_prestige_loss = yes # Lose Prestige while at peace
@@ -1832,6 +1853,7 @@ pagan_group = {
 		allow_looting = yes
 		
 		max_consorts = 3
+		women_can_take_consorts = yes
 		
 		aggression = 0.5 # AI aggression factor
 		
@@ -1889,6 +1911,7 @@ pagan_group = {
 			
 		female_temple_holders = yes
 		max_consorts = 3
+		women_can_take_consorts = yes
 		short_reign_opinion_year_mult = 1.5
 		intermarry = good_human_pantheon
 		intermarry = calishite_faith		
@@ -1958,6 +1981,7 @@ pagan_group = {
 		join_crusade_if_bordering_hostile = yes
 		allow_looting = yes
 		max_consorts = 3
+		women_can_take_consorts = yes
 		intermarry = good_human_pantheon
 		intermarry = uthgardt_faith
 		
@@ -2019,6 +2043,7 @@ pagan_group = {
 		defensive_attrition = yes
 		allow_looting = yes
 		max_consorts = 3
+		women_can_take_consorts = yes
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
 		
 		short_reign_opinion_year_mult = 2
@@ -2088,6 +2113,7 @@ pagan_group = {
 		join_crusade_if_bordering_hostile = yes
 		allow_looting = yes
 		max_consorts = 3
+		women_can_take_consorts = yes
 		
 		religious_clothing_head = 15
 		religious_clothing_priest = 16
@@ -2150,6 +2176,7 @@ pagan_group = {
 		allow_looting = yes
 		
 		max_consorts = 3
+		women_can_take_consorts = yes
 		
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
 		
@@ -2303,6 +2330,7 @@ pagan_group = {
 		}
 		
 		max_consorts = 3
+		women_can_take_consorts = yes
 		can_call_crusade = yes
 		join_crusade_if_bordering_hostile = yes
 		
@@ -2352,6 +2380,7 @@ pagan_group = {
 		peace_prestige_loss = yes # Lose Prestige while at peace
 		raised_vassal_opinion_loss = no
 		max_consorts = 3
+		women_can_take_consorts = yes
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
 		
 		religious_clothing_head = 3
@@ -2421,7 +2450,7 @@ pagan_group = {
 		join_crusade_if_bordering_hostile = yes
 		allow_looting = yes
 		max_consorts = 3
-		
+		women_can_take_consorts = yes
 		religious_clothing_head = 16
 		religious_clothing_priest = 16
 		
@@ -2481,7 +2510,7 @@ pagan_group = {
 		allow_looting = yes
 		
 		max_consorts = 3
-		
+		women_can_take_consorts = yes
 		independence_war_score_bonus = 30 # Overrides define CONTESTED_TITLE_OCCUPIED_WARSCORE_BONUS_INDEP
 		
 		short_reign_opinion_year_mult = 2
@@ -2626,6 +2655,7 @@ atheist_group = {
 		feminist = yes # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
 		female_temple_holders = yes
 		max_consorts = 3
+		women_can_take_consorts = yes
 
 		short_reign_opinion_year_mult = 0 # No short reign penalty
 		
@@ -2636,13 +2666,140 @@ atheist_group = {
 		priest_title = cleric
 		piety_name = PIETY
 		
-		uses_decadence = yes
-		uses_jizya_tax = yes
+		uses_decadence = no
+		uses_jizya_tax = no
 		
 		intermarry = ten_thousand_gods
 		intermarry = qisma
 		intermarry = good_human_pantheon
 		intermarry = muhjari		
 	}
+}
+aberration_group = {
+	has_coa_on_barony_only = yes
+	graphical_culture = westerngfx
+	hostile_within_group = yes
+	ai_peaceful = no
+	ai_convert_same_group = 2
+	ai_convert_other_group = 2
+	playable = yes
 	
+	color = { 0.48 0.1 0.56 }
+	
+	beholder_pantheon = {
+		graphical_culture = persiangfx
+		
+		icon = 54
+		heresy_icon = 54
+		
+		color = { 0.16 0.19 0.56 }
+		
+		high_god_name = great_mother
+		god_names = {
+			gzemnid great_mother
+		}
+		evil_god_names = {
+			gods_of_good
+		}
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = great_mothers_will
+		priest_title = GREAT_EYE
+		piety_name = OBSESSION
+
+		priests_can_marry = yes
+		female_temple_holders = yes
+		allow_looting = yes
+		max_consorts = 1
+		women_can_take_consorts = yes
+		can_grant_divorce = yes
+				
+		religious_clothing_head = 3
+		religious_clothing_priest = 7
+		
+		can_grant_claim = no
+		can_call_crusade = no
+		matrilineal_marriages = yes
+
+		feminist = yes
+		priests_can_inherit = yes
+		#can_hold_temples = yes
+		can_excommunicate = no
+		
+		peace_prestige_loss = no # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		aggression = 2
+	}
+	illithid_pantheon = {
+		graphical_culture = persiangfx
+		
+		icon = 53
+		heresy_icon = 53
+		
+		color = { 0.05 0.28 0.38 }
+		
+		high_god_name = ilsensine
+		god_names = {
+			ilsensine maanzecorian
+		}
+		evil_god_names = {
+			gods_of_good
+		}
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = elder_brains_will
+		priest_title = CARETAKER
+		piety_name = PSIONIC_MASTERY
+
+		priests_can_marry = no
+		female_temple_holders = yes
+		allow_looting = yes
+		can_grant_divorce = no
+				
+		religious_clothing_head = 3
+		religious_clothing_priest = 7
+		
+		can_grant_claim = no
+		can_call_crusade = no
+		#matrilineal_marriages = yes
+
+		feminist = yes
+		priests_can_inherit = yes
+		#can_hold_temples = yes
+		can_excommunicate = yes
+		
+		peace_prestige_loss = yes # Lose Prestige while at peace
+		raised_vassal_opinion_loss = no
+		aggression = 2
+	}
+	faceless_god = {
+		graphical_culture = bodpagfx
+		alternate_start = { always = no }
+
+		icon = 29
+		heresy_icon = 29
+		
+		color = { 0.83 0.10 0.5 }
+
+		religious_clothing_head = 10
+		religious_clothing_priest = 10
+		
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = sacred_texts
+		priest_title = PRIEST
+		high_god_name = god_faceless_god
+		god_names = {
+			god_faceless_god
+		}
+		evil_god_names = {
+			Hajama Hakiyah Haku Jisan Kor Najm Selan Zann
+		}
+		has_heir_designation = yes
+		can_grant_claim = yes
+		can_call_crusade = yes
+		matrilineal_marriages = yes
+		can_grant_divorce = yes
+		allow_looting = yes
+		defensive_attrition = yes		
+	}
 }

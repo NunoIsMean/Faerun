@@ -689,14 +689,7 @@ k_delimbiyran = {
 	title_female = QUEEN
 }
 
-k_shavinar = {
-	color = { 125 170 200 }
-	color2 = { 255 255 255 }
-	capital = 13 # Baldur's Gate / Gaeth
-	allow = {
-		culture = tethyrian
-	}
-}
+
 
 k_andlath = {
 	color = { 195 10 203 }
@@ -990,7 +983,32 @@ d_darkhope = {
 		always = no
 	}
 }
-	
+
+k_maelstrom = {
+	color = { 103 52 235 }
+	color2 = { 255 255 255 }
+	capital = 230 # The Whalebones
+	title = STORM_KING
+	title_female = STORM_QUEEN
+	allow = {
+		culture = storm_giant
+	}
+}
+
+k_sarifal = {
+	color = { 158 235 52 }
+	color2 = { 255 255 255 }
+	capital = 320 # Myrloch Vale
+	title = HIGH_LORD
+	title_female = HIGH_LADY
+	allow = {
+		OR = {
+			culture = eladrin
+			religion = sylvan
+		}
+	}
+}
+
 # Zulkirates
 
 d_abjuration = {
@@ -1370,6 +1388,16 @@ k_candlekairn = {
 		culture = orc		religion = orc_pantheon	}
 	capital = 239 # Alaoreum
 }
+d_bloodsea = {
+	color = { 100 30 50 }
+	tribe = yes
+	allow = {
+		culture = orc
+		religion = orc_pantheon
+	}
+	capital = 216 # Korinn
+}
+
 #GOBLINOIDS
 
 d_urshani = {

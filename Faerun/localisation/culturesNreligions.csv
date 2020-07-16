@@ -13,7 +13,7 @@ beholder_group;Beholder;;;;;;;;;;;;;x
 calishite;Calishite;;;;;;;;;;;;;x
 damaran_group;Damaran;;;;;;;;;;;;;x
 celestial_group;Celestial;;;;;;;;;;;;;x
-eladrin;Eladrin;;;;;;;;;;;;;x
+celestial_eladrin;Eladrin;;;;;;;;;;;;;x
 angel;Angel;;;;;;;;;;;;;x
 centaur_group;Centaurs;;;;;;;;;;;;;x
 centaur;Centaur;;;;;;;;;;;;;x
@@ -149,6 +149,7 @@ wemic;Wemic;;;;;;;;;;;;;x
 westerner_group;Westerner;;;;;;;;;;;;;x
 wild_dwarf;Wild Dwarf;;;;;;;;;;;;;x
 wood_elf;Wood Elf;;;;;;;;;;;;;x
+eladrin;Fey Eladrin;;;;;;;;;;;;;x
 wraith;Wraith;;;;;;;;;;;;;x
 yikarian;Yikarian;;;;;;;;;;;;;x
 yikarian_group;Yikarian;;;;;;;;;;;;;x
@@ -167,6 +168,7 @@ stone_giant;Stone Giant;;;;;;;;;;;;;x
 storm_giant;Storm Giant;;;;;;;;;;;;;x
 cloud_giant;Cloud Giant;;;;;;;;;;;;;x
 hill_giant;Hill Giant;;;;;;;;;;;;;x
+fomorian;Fomorian;;;;;;;;;;;;;x
 bugbear;Bugbear;;;;;;;;;;;;;x
 hobgoblin;Hobgoblin;;;;;;;;;;;;;x
 kenku;Kenku;;;;;;;;;;;;;x
@@ -215,6 +217,8 @@ tanarukk;Tanarukk;;;;;;;;;;x
 gelugon;Gelugon;;;;;;;;;;x
 cornugon;Cornugon;;;;;;;;;;x
 dragon;Dragon;;;;;;;;;;x
+troll;Troll;;;;;;;;;;x
+sarrukh;Sarrukh;;;;;;;;;;x
 ###CULTURAL TITLES
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 job_marshal_drow;Weapon Master;;;;;;;;;;;;;x
@@ -772,7 +776,7 @@ karaturan_group;Kara-Turan;;;;;;;;;;;;;x
 loviatar;Loviatan;;;;;;;;;;;;;x
 god_loviatar;Loviatar;;;;;;;;;;;;;x
 loviatar_DESC;This character worships Loviatar, the Maiden of Pain. She is dedicated to causing suffering, and to those who have not felt the touch of her whip, her faith is often a mystery.;;;;;;;;;;;;;x
-abyssal_cult;Abyss Cultist;;;;;;;;;;;;;x
+abyssal_cult;Abyssal;;;;;;;;;;;;;x
 abyssal_cult_DESC;This character worships a powerful demon of the Abyss, perhaps even a Demon Prince.;;;;;;;;;;;;;x
 grazzt;Graz'zt;;;;;;;;;;;;;x
 elven_pantheon_group;Elven Gods;;;;;;;;;;;;;x
@@ -806,8 +810,8 @@ drow_polytheism_DESC;Drow polytheism is a disorganised faith which honours the s
 dark_seldarine;the Dark Seldarine;;;;;;;;;;;;;x
 abbathor;Abbathor;;;;;;;;;;;;;x
 giant_pantheon_group;Giant Gods;;;;;;;;;;;;;x
-giant_pantheon;Giantish;;;;;;;;;;;;;x
-giant_pantheon_DESC;The Giant Pantheon is worshipped by all kinds of giants across Faerûn. It is headed by Annam, the lofty and unapproachable chief of the giant deities.;;;;;;;;;;;;;x
+giant_pantheon;Jotun;;;;;;;;;;;;;x
+giant_pantheon_DESC;The Giant Pantheon, or The Ordning, is worshipped by all kinds of giants across Faerûn. It is headed by Annam, the lofty and unapproachable chief of the giant deities.;;;;;;;;;;;;;x
 annam;Annam;;;;;;;;;;;;;x
 giants_gods;all the gods of the Giants;;;;;;;;;;;;;x
 midget_gods;the small gods of the small peoples;;;;;;;;;;;;;x
@@ -850,6 +854,24 @@ STAT_PIETY_FAVOR;Favor;;;;;;;;;;;;;x
 STAT_PIETY_MAAT;Ma'at;;;;;;;;;;;;;x
 STAT_PIETY_KETTU;Kettu;;;;;;;;;;;;;x
 STAT_PIETY_STAMINA;Stamina;;;;;;;;;;;;;x
+STAT_PIETY_PSIONIC_MASTERY;Psionic Mastery;;;;;;;;;;;;;x
+STAT_PIETY_OBSESSION;Obsession;;;;;;;;;;;;;x
+STAT_PIETY_MENU_HONOR;Honor;;;;;;;;;;;;;x
+STAT_PIETY_MENU_FAVOR;Favor;;;;;;;;;;;;;x
+STAT_PIETY_MENU_MAAT;Ma'at;;;;;;;;;;;;;x
+STAT_PIETY_MENU_KETTU;Kettu;;;;;;;;;;;;;x
+STAT_PIETY_MENU_STAMINA;Stamina;;;;;;;;;;;;;x
+STAT_PIETY_MENU_PSIONIC_MASTERY;Psionic Mastery;;;;;;;;;;;;;x
+STAT_PIETY_MENU_OBSESSION;Obsession;;;;;;;;;;;;;x
+#we need to write these descriptions
+STAT_PIETY_DESC_HONOR;Honor;;;;;;;;;;;;;x
+STAT_PIETY_DESC_FAVOR;Favor;;;;;;;;;;;;;x
+STAT_PIETY_DESC_MAAT;Ma'at;;;;;;;;;;;;;x
+STAT_PIETY_DESC_KETTU;Kettu;;;;;;;;;;;;;x
+STAT_PIETY_DESC_STAMINA;Stamina;;;;;;;;;;;;;x
+STAT_PIETY_DESC_PSIONIC_MASTERY;Psionic Mastery;;;;;;;;;;;;;x
+STAT_PIETY_DESC_OBSESSION;Obsession;;;;;;;;;;;;;x
+#we need to write these descriptions
 ulutiuan;Ulutiuan;;;;;;;;;;;;;x
 ulutiuan_DESC;The people of Faerûn's far north often worship Ulutiu, the Sleeper in the Ice, and honour the animal spirits who they believe provide guidance and wisdom.;;;;;;;;;;;;;x
 ulutiuan_reformed;Reformed Ulutiuan;;;;;;;;;;;;;x
@@ -929,7 +951,7 @@ GOD_ZANDILAR;Zandilar the Dancer;;;;;;;;;;;;;x
 GOD_DARKNESS;the Spirit of Darkness;;;;;;;;;;;;;x
 religion_feature_yuir;Blended Heritage;;;;;;;;;;;;;x
 religion_feature_yuir_desc;Our people are of two races, human and elven, and two worlds, Faerûn and Sildëyuir. We should draw on all their combined knowledge and understanding to revive the faith.;;;;;;;;;;;;;x
-netherese_pantheon;Netherese;;;;;;;;;;;;;x
+netherese_pantheon;Loross;;;;;;;;;;;;;x
 netherese_pantheon_DESC;This character worships the gods of Toril, the Estelar, by the names and rites which they used in the time of the ancient empire of Netheril.;;;;;;;;;;;;;x
 jergal;Jergal;;;;;;;;;;;;;x
 moander;Moander;;;;;;;;;;;;;x
@@ -994,3 +1016,95 @@ halfling_pantheon;Yondallan;;;;;;;;;;;;;x
 halfling_pantheon_DESC;The halfling pantheon is led by Yondalla the Protector and Provider, and encompasses a number of gods held to be her children. The pantheon itself reflects its chosen race, being cohesive and good-natured.;;;;;;;;;;;;;x
 gnome_pantheon;Golden;;;;;;;;;;;;;x
 gnome_pantheon_DESC;The Lords of the Golden Hills are led by Garl Glittergold, and is composed of a number of deities that all relate to some aspect of gnomish life. Curiously, the gnomish deities tolerate the presence of Urdlen, an evil and violent god, in their midst.;;;;;;;;;;;;;x
+infernal;Infernal;;;;;;;;;;;;;x
+infernal_DESC;Infernal cults either worship Asmodeus himself or one of the archdevils under him. Asmodeus himself a being on the same level as greater deities and holds the portfolio of Indulgence. His cult strives to spread the ideals of Law and Evil, damning as many souls to the Nine Hells as possible in the process, and fighting the servants of the Demon Lords of the Abyss.;;;;;;;;;;;;;x
+god_maglubiyet;Maglubiyet;;;;;;;;;;;;;x
+god_khurgorbaeyag;Khurgorbaeyag;;;;;;;;;;;;;x
+god_nomog_geaya;Nomog-Geaya;;;;;;;;;;;;;x
+god_bargrivyek;Bargrivyek;;;;;;;;;;;;;x
+god_hruggek;Hruggek;;;;;;;;;;;;;x
+god_grankhul;Grankhul;;;;;;;;;;;;;x
+maglubiyet_demands;Maglubiyet's Demands;;;;;;;;;;;;;x
+ilsensine;Ilsensine;;;;;;;;;;;;;x
+maanzecorian;Maanzecorian;;;;;;;;;;;;;x
+elder_brains_will;The Elder Brain's Will;;;;;;;;;;;;;x
+CARETAKER;Caretaker;;;;;;;;;;;;;x
+great_mother;The Great Mother;;;;;;;;;;;;;x
+gzemnid;Gzemnid;;;;;;;;;;;;;x
+GREAT_EYE;Great Eye;;;;;;;;;;;;;x
+great_mothers_will;The Great Mother's Will;;;;;;;;;;;;;x
+silvanus;Silvanus;;;;;;;;;;;;;x
+skerrit;Skerrit;;;;;;;;;;;;;x
+sylvan;Sylvan;;;;;;;;;;;;;x
+sylvan_DESC;Fey creatures of the Realms worship a host of deities and entities related either to nature itself or the feywild. These can include human deities, elven gods and even archfey.;;;;;;;;;;;;;x
+aberration_group;Aberrant Group;;;;;;;;;;;;;x
+illithid_pantheon;Qualith;;;;;;;;;;;;;x
+illithid_pantheon_DESC;As planar creatures, illithids do not worship the powerful entities of the Outer Planes as deities and do not even desire an afterlife in the traditional sense. Instead most mind flayers, with some exceptions, desire to join an Elder Brain upon death. They do however, offer some worship to manifestations of psionic ideals in the form of Ilsensine and Maanzecorian, to the point where these entities can grant divine magic to clerics.;;;;;;;;;;;;;x
+beholder_pantheon;Solipsist;;;;;;;;;;;;;x
+beholder_pantheon_DESC;Rarely do Beholders worship gods, for near none can admit there are beings greater than themselves. Instead most Beholders believe themselves to be the closest thing to true divinity, the perfect child of the Great Mother, the ancestor of all Beholders.;;;;;;;;;;;;;x
+KEEPER;Keeper;;;;;;;;;;;;;x
+archfey;Archfey;;;;;;;;;;;;;x
+#Hobgoblins
+#rank;;;;;;;;;;;;;;
+tribal_baron_hobgoblin;Fatal Axe;;;;;;;;;;;;;x
+tribal_baron_female_hobgoblin;Fatal Axe;;;;;;;;;;;;;x
+tribal_count_hobgoblin;Captain;;;;;;;;;;;;;x
+tribal_count_female_hobgoblin;Captain;;;;;;;;;;;;;x
+tribal_duke_hobgoblin;General;;;;;;;;;;;;;x
+tribal_duke_female_hobgoblin;General;;;;;;;;;;;;;x
+tribal_king_hobgoblin;Warlord;;;;;;;;;;;;;x
+tribal_king_female_hobgoblin;Warlady;;;;;;;;;;;;;x
+tribal_emperor_hobgoblin;Warmaster;;;;;;;;;;;;;x
+tribal_emperor_female_hobgoblin;Warmistress;;;;;;;;;;;;;x
+tribal_barony_of_hobgoblin;Regiment of;;;;;;;;;;;;;x
+tribal_county_of_hobgoblin;Banner of;;;;;;;;;;;;;x
+tribal_duchy_of_hobgoblin;Company of;;;;;;;;;;;;;x
+tribal_kingdom_of_hobgoblin;Legion of;;;;;;;;;;;;;x
+tribal_empire_of_hobgoblin;Warhost of;;;;;;;;;;;;;x
+tribal_barony_hobgoblin;Regiment;;;;;;;;;;;;;x
+tribal_county_hobgoblin;Banner;;;;;;;;;;;;;x
+tribal_duchy_hobgoblin;Company;;;;;;;;;;;;;x
+tribal_kingdom_hobgoblin;Legion;;;;;;;;;;;;;x
+tribal_empire_hobgoblin;Warhost;;;;;;;;;;;;;x
+baron_hobgoblin;Fatal Axe;;;;;;;;;;;;;x
+baron_female_hobgoblin;Fatal Axe;;;;;;;;;;;;;x
+count_hobgoblin;Captain;;;;;;;;;;;;;x
+count_female_hobgoblin;Captain;;;;;;;;;;;;;x
+duke_hobgoblin;General;;;;;;;;;;;;;x
+duke_female_hobgoblin;General;;;;;;;;;;;;;x
+king_hobgoblin;Warlord;;;;;;;;;;;;;x
+king_female_hobgoblin;Warlady;;;;;;;;;;;;;x
+emperor_hobgoblin;Warmaster;;;;;;;;;;;;;x
+emperor_female_hobgoblin;Warmistress;;;;;;;;;;;;;x
+barony_of_hobgoblin;Regiment of;;;;;;;;;;;;;x
+county_of_hobgoblin;Banner of;;;;;;;;;;;;;x
+duchy_of_hobgoblin;Company of;;;;;;;;;;;;;x
+kingdom_of_hobgoblin;Legion of;;;;;;;;;;;;;x
+empire_of_hobgoblin;Warhost of;;;;;;;;;;;;;x
+barony_hobgoblin;Regiment;;;;;;;;;;;;;x
+county_hobgoblin;Banner;;;;;;;;;;;;;x
+duchy_hobgoblin;Company;;;;;;;;;;;;;x
+kingdom_hobgoblin;Legion;;;;;;;;;;;;;x
+empire_hobgoblin;Warhost;;;;;;;;;;;;;x
+baron_ffolk;Churl;;;;;;;;;;;;;x
+baron_female_ffolk;Churl;;;;;;;;;;;;;x
+barony_ffolk;Stead;;;;;;;;;;;;;x
+barony_of_ffolk;Stead of;;;;;;;;;;;;;x
+county_ffolk;Cantrev;;;;;;;;;;;;;x
+county_of_ffolk;Cantrev of;;;;;;;;;;;;;x
+duke_ffolk;Earl;;;;;;;;;;;;;x
+duke_female_ffolk;Earl;;;;;;;;;;;;;x
+duchy_ffolk;Earldom;;;;;;;;;;;;;x
+duchy_of_ffolk;Earldom of;;;;;;;;;;;;;x
+baron_northlander;Lendman;;;;;;;;;;;;;x
+baron_female_northlander;Lendwoman;;;;;;;;;;;;;x
+barony_northlander;Stead;;;;;;;;;;;;;x
+barony_of_northlander;Stead of;;;;;;;;;;;;;x
+count_northlander;Thane;;;;;;;;;;;;;x
+count_female_northlander;Thane;;;;;;;;;;;;;x
+county_northlander;Hold;;;;;;;;;;;;;x
+county_of_northlander;Hold of;;;;;;;;;;;;;x
+duke_northlander;Jarl;;;;;;;;;;;;;x
+duke_female_northlander;Jarl;;;;;;;;;;;;;x
+duchy_northlander;Jarldom;;;;;;;;;;;;;x
+duchy_of_northlander;Jarldom of;;;;;;;;;;;;;x

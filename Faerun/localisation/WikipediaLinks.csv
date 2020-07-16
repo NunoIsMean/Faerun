@@ -36,6 +36,7 @@ W_L_2002;https://forgottenrealms.fandom.com/wiki/Ulraunt;;;;;;;;;;;;;x
 W_L_2003;https://forgottenrealms.fandom.com/wiki/Tethtoril;;;;;;;;;;;;;x
 W_L_2067;https://forgottenrealms.fandom.com/wiki/Haer%27Dalis;;;;;;;;;;;;;x
 W_L_2068;https://forgottenrealms.fandom.com/wiki/Hexxat;;;;;;;;;;;;;x
+W_L_2079;https://forgottenrealms.fandom.com/wiki/Eldrith;;;;;;;;;;;;;x
 #3001-5000 High Moor
 W_L_3001;https://forgottenrealms.fandom.com/wiki/Verraketh_Talembar;;;;;;;;;;;;;x
 #5001-7000 Silver Marches
@@ -54,6 +55,7 @@ W_L_7064;https://forgottenrealms.fandom.com/wiki/Renwick_Caradoon;;;;;;;;;;;;;x
 W_L_7079;https://forgottenrealms.fandom.com/wiki/Laeral_Silverhand;;;;;;;;;;;;;x
 W_L_7123;https://forgottenrealms.fandom.com/wiki/Kazardun;;;;;;;;;;;;;x
 #9001-11000 Western Heartlands
+W_L_9010;https://forgottenrealms.fandom.com/wiki/Pwyll_Daggerford;;;;;;;;;;;;;x
 W_L_9047;https://forgottenrealms.fandom.com/wiki/Elminster_Aumar;;;;;;;;;;;;;x
 W_L_9269;https://forgottenrealms.fandom.com/wiki/Dodkong;;;;;;;;;;;;;x
 #11001-13000 Dragon Coast and Inner Sea
@@ -61,11 +63,14 @@ W_L_11313;https://forgottenrealms.fandom.com/wiki/Cassana;;;;;;;;;;;;;x
 W_L_11314;https://forgottenrealms.fandom.com/wiki/Alias;;;;;;;;;;;;;x
 W_L_11315;https://forgottenrealms.fandom.com/wiki/Zrie_Prakis;;;;;;;;;;;;;x
 #13001-15000 Luskan
+W_L_13001;https://forgottenrealms.fandom.com/wiki/Baram;;;;;;;;;;;;;x
 W_L_13007;https://forgottenrealms.fandom.com/wiki/Arklem_Greeth;;;;;;;;;;;;;x
 #15001-17000 Neverwinter
 W_L_15001;https://forgottenrealms.fandom.com/wiki/Nasher_Alagondar;;;;;;;;;;;;;x
 #17001-20000 Dwarves
 W_L_17001;https://forgottenrealms.fandom.com/wiki/Bruenor_Battlehammer;;;;;;;;;;;;;x
+W_L_17007;https://forgottenrealms.fandom.com/wiki/Gandalug_Battlehammer;;;;;;;;;;;;;x
+W_L_17006;https://forgottenrealms.fandom.com/wiki/Bruenor_Battlehammer_I;;;;;;;;;;;;;x
 #20001-23000 Cormyr
 W_L_20001;https://forgottenrealms.fandom.com/wiki/Faerlthann_Obarskyr;;;;;;;;;;;;;x
 W_L_20002;https://forgottenrealms.fandom.com/wiki/Imlon_Obarskyr;;;;;;;;;;;;;x
@@ -79,6 +84,7 @@ W_L_20083;https://forgottenrealms.fandom.com/wiki/Alusair_Obarskyr;;;;;;;;;;;;;x
 W_L_20084;https://forgottenrealms.fandom.com/wiki/Azoun_Obarskyr_V;;;;;;;;;;;;;x
 W_L_20181;https://forgottenrealms.fandom.com/wiki/Filfaeril_Obarskyr;;;;;;;;;;;;;x
 W_L_20209;https://forgottenrealms.fandom.com/wiki/Anastra_Sylun%C3%A9_Silverhand;;;;;;;;;;;;;x
+W_L_20286;https://forgottenrealms.fandom.com/wiki/Vangerdahast_Aeiulvana;;;;;;;;;;;;;x
 W_L_20499;https://forgottenrealms.fandom.com/wiki/Florin_Falconhand;;;;;;;;;;;;;x
 W_L_20500;https://forgottenrealms.fandom.com/wiki/Artus_Cimber;;;;;;;;;;;;;x
 W_L_20501;https://forgottenrealms.fandom.com/wiki/Scoril_Cimber;;;;;;;;;;;;;x
@@ -96,6 +102,9 @@ W_L_26054;https://forgottenrealms.fandom.com/wiki/Azalar_Falconhand;;;;;;;;;;;;;
 W_L_26055;https://forgottenrealms.fandom.com/wiki/Grypht;;;;;;;;;;;;;x
 W_L_26184;https://forgottenrealms.fandom.com/wiki/Dragonbait;;;;;;;;;;;;;x
 W_L_26185;https://forgottenrealms.fandom.com/wiki/Coral_(saurial);;;;;;;;;;;;;x
+#28001-30000 Tethyr
+W_L_28001;https://forgottenrealms.fandom.com/wiki/Haedrak_Rhindaun_III;;;;;;;;;;;;;x
+W_L_28028;https://forgottenrealms.fandom.com/wiki/Mhoaran;;;;;;;;;;;;;x
 #30001-30299 Narfelli
 W_L_30178;https://forgottenrealms.fandom.com/wiki/Rotting_Man;;;;;;;;;;;;;x
 #30600-30899 Gnomes
@@ -108,6 +117,8 @@ W_L_37003;https://forgottenrealms.fandom.com/wiki/Hubadai_Khahan;;;;;;;;;;;;;x
 W_L_37004;https://forgottenrealms.fandom.com/wiki/Jadaran;;;;;;;;;;;;;x
 #40001-40500 Mulhorand
 W_L_40001;https://forgottenrealms.fandom.com/wiki/Horustep_III;;;;;;;;;;;;;x
+#40500-40750 Chessentan
+W_L_40500;https://forgottenrealms.fandom.com/wiki/Khrulis;;;;;;;;;;;;;x
 #41001-42000 Savage Frontier
 W_L_41027;https://forgottenrealms.fandom.com/wiki/Wulfgar;;;;;;;;;;;;;x
 #42001-44000 Calimshan
@@ -131,8 +142,18 @@ W_L_48506;https://forgottenrealms.fandom.com/wiki/Uldreiyn_Starym;;;;;;;;;;;;;x
 W_L_48508;https://forgottenrealms.fandom.com/wiki/Ysmyrl%27da_Starym;;;;;;;;;;;;;x
 W_L_48509;https://forgottenrealms.fandom.com/wiki/Josidiah_Starym;;;;;;;;;;;;;x
 W_L_48515;https://forgottenrealms.fandom.com/wiki/Venali_Starym;;;;;;;;;;;;;x
+#50001-51000 Moonshae Isles
+W_L_50859;https://forgottenrealms.fandom.com/wiki/Hekaton;;;;;;;;;;;;;x
+W_L_50860;https://forgottenrealms.fandom.com/wiki/Uthor;;;;;;;;;;;;;x
+W_L_50861;https://forgottenrealms.fandom.com/wiki/Neri;;;;;;;;;;;;;x
+W_L_50862;https://forgottenrealms.fandom.com/wiki/Mirran;;;;;;;;;;;;;x
+W_L_50863;https://forgottenrealms.fandom.com/wiki/Nym_(storm_giant);;;;;;;;;;;;;x
+W_L_50864;https://forgottenrealms.fandom.com/wiki/Serissa;;;;;;;;;;;;;x
+W_L_50865;https://forgottenrealms.fandom.com/wiki/Iymrith;;;;;;;;;;;;;x
 #52101-52200 Vaasa
 W_L_52125;https://forgottenrealms.fandom.com/wiki/Sammaster;;;;;;;;;;;;;x
+#52501-52800 Ulutiun
+W_L_52558;https://forgottenrealms.fandom.com/wiki/Iyraclea;;;;;;;;;;;;;x
 #52801-53000 Chultan
 W_L_52801;https://forgottenrealms.fandom.com/wiki/Osaw_I;;;;;;;;;;;;;x
 W_L_52802;https://forgottenrealms.fandom.com/wiki/Kwalu;;;;;;;;;;;;;x
@@ -149,6 +170,7 @@ W_L_57002;https://forgottenrealms.fandom.com/wiki/Ebarnaje;;;;;;;;;;;;;x
 #58201-59000 Lapaliiya
 W_L_58201;https://forgottenrealms.fandom.com/wiki/Ebarnaje;;;;;;;;;;;;;x
 #61001-62000 Anauroch
+W_L_61014;https://forgottenrealms.fandom.com/wiki/Ruatheene;;;;;;;;;;;;;x
 W_L_61044;https://forgottenrealms.fandom.com/wiki/Larloch;;;;;;;;;;;;;x
 W_L_61045;https://forgottenrealms.fandom.com/wiki/Rhaugilath;;;;;;;;;;;;;x
 W_L_61177;https://forgottenrealms.fandom.com/wiki/Beast_Lord;;;;;;;;;;;;;x
@@ -162,5 +184,7 @@ W_L_62023;https://forgottenrealms.fandom.com/wiki/Nar-Aidiya;;;;;;;;;;;;;x
 W_L_62064;https://forgottenrealms.fandom.com/wiki/Hatit_Abd_al-Wajib;;;;;;;;;;;;;x
 #63701-64000 Damara
 W_L_63703;https://forgottenrealms.fandom.com/wiki/Gareth_Dragonsbane;;;;;;;;;;;;;x
+W_L_63714;https://forgottenrealms.fandom.com/wiki/Knellict;;;;;;;;;;;;;x
 #64001-64500 Halruaa
+W_L_64001;https://forgottenrealms.fandom.com/wiki/Ardanthe;;;;;;;;;;;;;x
 W_L_64011;https://forgottenrealms.fandom.com/wiki/Zalathorm_Kirkson;;;;;;;;;;;;;x

@@ -2758,6 +2758,8 @@ e_chondath = {
 				color={ 43 158 182 }
 				color2={ 255 255 255 }
 				
+				holy_site = sylvan
+				
 				b_tolling_hill = {}
 				b_pamor = {}
 				b_frostside = {}
@@ -3956,6 +3958,8 @@ e_cold_lands = {
 				holy_site = church_of_cyric # Birthplace of Cyric
 				holy_site = abyssal_cult
 				holy_site = deities_of_fury
+				holy_site = beholder_pantheon
+				holy_site = illithid_pantheon
 	
 				b_zhentil_keep = {}
 				b_thargate = {}
@@ -4138,6 +4142,8 @@ e_cold_lands = {
 				color2={ 255 255 255 }
 				
 				holy_site = evil_human_pantheon
+				holy_site = beholder_pantheon
+				holy_site = illithid_pantheon
 				
 				title = "HIGH_BLADE"
 				title_female = "HIGH_BLADE"
@@ -5077,7 +5083,7 @@ e_cormanthor = {
 			c_wildergroves = { # 1153
 				color={ 15 85 52 }
 				color2={ 255 255 255 }
-				
+				holy_site = sylvan
 				dalesman = "Freedale"
 				
 				b_caronal = {}
@@ -5460,6 +5466,14 @@ e_easting_reach = {
 		
 		capital = 400 # c_lyrabar
 		
+		hobgoblin = "Haekrukka"
+		feyri = "Caerthiilor"
+		moon_elf = "Caerthiilor"
+		sun_elf = "Caerthiilor"
+		green_elf = "Caerthiilor"
+		crinti = "Caerthiilor"
+		wood_elf = "Caerthiilor"
+		
 		d_easting_coast = {
 			color={ 180 102 26 }
 			color2={ 255 255 255 }
@@ -5470,9 +5484,13 @@ e_easting_reach = {
 				color={ 170 112 21 }
 				color2={ 255 255 255 }
 				
+				chondathan = "Impil's Tor"
+				
 				b_lyrabar = {}
 				b_moranay = {}
-				b_hlammech = {}
+				b_hlammach = {
+					nar = "Arnafel"
+				}
 				b_bertiholm = {}
 				b_bellhorn = {}
 				b_fod = {}
@@ -5482,7 +5500,11 @@ e_easting_reach = {
 				color={ 191 55 30 }
 				color2={ 255 255 255 }
 				
-				b_dilpur = {}
+				nar = "Elnar"
+				
+				b_dilpur = {
+					nar = "Elnar"
+				}
 				b_red_bluffs = {}
 				b_gunthima = {}
 				b_cadun = {}
@@ -5556,7 +5578,13 @@ e_easting_reach = {
 				color={ 152 100 39 }
 				color2={ 255 255 255 }
 				
-				b_sarshel = {}
+				nar = "Oloth"
+				monster = "Gloom Fens"
+				tanarri = "Gloom Fens"
+				
+				b_sarshel = {
+					nar = "Oloth"
+				}
 				b_thelnam = {}
 				b_arns_cove = {}
 				b_outentown = {}
@@ -6013,6 +6041,11 @@ e_easting_reach = {
 		
 		capital = 262 # c_tantras
 		
+		orc = "Vastar"
+		gray_orc = "Vastar"
+		minotaur = "Grong-Haap"
+		shield_dwarf = "Roldilar"
+		
 		d_dragon_reach = {
 			color={ 102 144 138 }
 			color2={ 255 255 255 }
@@ -6024,6 +6057,8 @@ e_easting_reach = {
 				color2={ 255 255 255 }
 				
 				holy_site = evil_human_pantheon
+				holy_site = beholder_pantheon
+				holy_site = illithid_pantheon
 				
 				b_tantras = {}
 				b_onirtoft = {}
@@ -6049,6 +6084,8 @@ e_easting_reach = {
 			c_ravens_bluff = { # 263
 				color={ 164 167 182 }
 				color2={ 255 255 255 }
+				
+				shield_dwarf = "Sarbreen"
 				
 				b_ravens_bluff = {}
 				b_sarbreenar = {}
@@ -6089,6 +6126,13 @@ e_easting_reach = {
 			
 			capital = 265 # c_procampur
 			
+			feyri = "Larlotha"
+			moon_elf = "Larlotha"
+			sun_elf = "Larlotha"
+			green_elf = "Larlotha"
+			crinti = "Larlotha"
+			wood_elf = "Larlotha"
+			
 			c_procampur = { # 265
 				color={ 155 134 131 }
 				color2={ 255 255 255 }
@@ -6113,13 +6157,14 @@ e_easting_reach = {
 				holy_site = yuir
 				holy_site = yuir_reformed
 	
-				feyri = "Tsurlar"
-				moon_elf = "Tsurlar"
-				sun_elf = "Tsurlar"
-				green_elf = "Tsurlar"
-				crinti = "Tsurlar"
-				drow = "Tsurlar"
-				wood_elf = "Tsurlar"
+				hobgoblin = "Tsurlar"
+				Nar = "Tsurlar"
+				feyri = "Saerdath"
+				moon_elf = "Vedrymmell"
+				sun_elf = "Saerdath"
+				green_elf = "Saerdath"
+				crinti = "Saerdath"
+				wood_elf = "Saerdath"
 	
 				b_caerenvalt = {}
 				b_urentash = {}
@@ -6164,6 +6209,8 @@ e_easting_reach = {
 			
 			capital = 380 # c_kings_reach
 			
+			shield_dwarf = "Felimar"
+			
 			c_kings_reach = { # 380
 				color={ 106 149 173 }
 				color2={ 255 255 255 }
@@ -6180,6 +6227,8 @@ e_easting_reach = {
 				color={ 64 91 109 }
 				color2={ 255 255 255 }
 				
+				shield_dwarf = "Thorordmorn"
+				
 				b_karon = {}
 				b_dragons_stone = {}
 				b_blackburn = {}
@@ -6192,7 +6241,7 @@ e_easting_reach = {
 				color={ 254 220 215 }
 				color2={ 255 255 255 }
 				
-				b_earthfast = {}
+				b_earthfast = {} # Corresponding Underdark location is Halrunedar
 				b_alemiror = {}
 				b_bronzereach = {}
 				b_gatterlen = {}
@@ -6206,12 +6255,30 @@ e_easting_reach = {
 			color2={ 255 255 255 }
 			
 			capital = 271 # c_ylraphon
+
+			feyri = "Yrlaphon"
+			moon_elf = "Yrlaphon"
+			sun_elf = "Yrlaphon"
+			green_elf = "Yrlaphon"
+			wood_elf = "Yrlaphon"
 			
 			c_ylraphon = { # 271
 				color={ 73 173 185 }
 				color2={ 255 255 255 }
 				
-				b_ylraphon = {}
+				feyri = "Yrlaphon"
+				moon_elf = "Yrlaphon"
+				sun_elf = "Yrlaphon"
+				green_elf = "Yrlaphon"
+				wood_elf = "Yrlaphon"
+				
+				b_ylraphon = {
+					feyri = "Yrlaphon"
+					moon_elf = "Yrlaphon"
+					sun_elf = "Yrlaphon"
+					green_elf = "Yrlaphon"
+					wood_elf = "Yrlaphon"				
+				}
 				b_wileah = {}
 				b_flagstone = {}
 				b_wheaford = {}
@@ -6389,7 +6456,7 @@ e_evermeet = {
 			c_siiluth = { # 1108
 				color={ 67 109 24 }
 				color2={ 255 255 255 }
-				
+				holy_site = sylvan
 				b_siiluth_keep = {}
 				b_nyfh = {}
 				b_esela = {}
@@ -6668,6 +6735,7 @@ e_fallen_stars = {
 				b_inverness = {}
 				b_conriston = {}
 				b_rayham = {}
+				b_geneva_lake = {}
 			}
 			c_hillmarch = { # 466
 				color={ 158 59 55 }
@@ -7054,6 +7122,9 @@ e_fallen_stars = {
 			c_telpir = { # 248
 				color={ 255 237 213 }
 				color2={ 255 255 255 }
+				
+				impilturan = "Dathtar"
+				cormyrian = "Dathtar"
 				
 				b_telpir = {}
 				b_st_caham = {}
@@ -7690,7 +7761,7 @@ e_fallen_stars = {
 			c_broadfields = { # 204
 				color={ 240 234 237 }
 				color2={ 255 255 255 }
-				
+				holy_site = sylvan
 				b_fenders_run = {}
 				b_ashpara = {}
 				b_aggaron = {}
@@ -13573,6 +13644,11 @@ e_northern_realms = {
 	color2={ 255 255 20 }
 	
 	short_name = yes
+
+	shield_dwarf = "Delzoun"
+	gold_dwarf = "Delzoun"
+	duergar = "Delzoun"
+	derro = "Delzoun"
 	
 	capital = 25 # c_silverymoon
 	
@@ -13582,10 +13658,10 @@ e_northern_realms = {
 		
 		capital = 25 # c_silverymoon
 		
-		shield_dwarf = "Delzoun"
-		gold_dwarf = "Delzoun"
-		duergar = "Delzoun"
-		derro = "Delzoun"
+		shield_dwarf = "Old Delzoun"
+		gold_dwarf = "Old Delzoun"
+		duergar = "Old Delzoun"
+		derro = "Old Delzoun"
 		
 		d_silverymoon = {
 			color={ 98 87 172 }
@@ -13652,7 +13728,7 @@ e_northern_realms = {
 				color={ 131 158 179 }
 				color2={ 255 255 255 }
 				
-				b_citadel_adbar = {}
+				b_citadel_adbar = {} # Rather than localise this to 'Adbarrim' for shield dwarves, we should make that an underdark location below it
 				b_dragonspikes = {}
 				b_adbar = {}
 				b_vaerluth = {}
@@ -13677,6 +13753,8 @@ e_northern_realms = {
 			c_the_fork = { # 479
 				color={ 185 170 197 }
 				color2={ 255 255 255 }
+				
+				shield_dwarf = "Ghuarin's Hold"
 				
 				b_deadsnows = {}
 				b_maldobar = {}
@@ -13965,7 +14043,7 @@ e_northern_realms = {
 				color={ 143 158 185 }
 				color2={ 255 255 255 }
 				
-				shield_dwarf = "Mount Illefarn"
+				shield_dwarf = "Mount Illefarn" # Corresponding Underdark location is Runedardath
 				monster = "Laughing Hollow"
 				moon_elf = "Laughing Hollow"
 				tethyrian = "Shining"
@@ -14200,9 +14278,14 @@ e_northern_realms = {
 				color2={ 255 255 255 }
 				
 				sun_elf = "Lothen"
+				shield_dwarf = "Caddarak"
 				
 				b_lothen = {}
-				b_caddarak = {}
+				b_caddarak = {
+					highcoaster = "Hall of Four Ghosts"
+					illuskan = "Hall of Four Ghosts"
+					uthgardt = "Hall of Four Ghosts"					
+				}
 				b_myth_adofhaer = {}
 				b_feldemael = {}
 				b_xelpaest = {}
@@ -14912,6 +14995,9 @@ e_northern_realms = {
 			
 			capital = 33 # c_druarwood
 			
+			illuskan = "Moonlands"
+			uthgardt = "Moonlands"
+			
 			c_druarwood = { # 33
 				color={ 39 146 25 }
 				color2={ 255 255 255 }
@@ -14959,6 +15045,8 @@ e_northern_realms = {
 			c_night_trees = { # 47
 				color={ 15 85 13 }
 				color2={ 255 255 255 }
+				
+				illuskan = "Moonlands"
 				
 				b_beorunnas_well = {}
 				b_red_fangs = {}
@@ -16191,6 +16279,7 @@ e_shaar = {
 				b_ralara = {}
 			}
 			c_arjol = {
+				holy_site = sylvan
 				color={ 141 224 152 }
 				color2={ 255 255 255 }
 				
@@ -17708,6 +17797,8 @@ e_shining_south = {
 				
 				holy_site = evil_human_pantheon
 				holy_site = loviatar
+				holy_site = beholder_pantheon
+				holy_site = illithid_pantheon
 	
 				b_cathtyr = {}
 				b_lahyrst = {}
@@ -18528,6 +18619,7 @@ e_sword_coast = {
 				sun_elf = "Ardeepsmouth"
 				wood_elf = "Ardeepsmouth"
 				green_elf = "Ardeepsmouth"
+
 				
 				b_zundbridge = {}
 				b_roaring_dragon_house = {}
@@ -18573,6 +18665,14 @@ e_sword_coast = {
 		
 		kenku = "Krocaa"
 		
+		allow = {
+			is_republic = yes
+			k_baldurs_gate = {
+				is_titular = no
+			}
+		}
+		
+		
 		d_baldurs_gate = {
 			color={ 10 99 193 }
 			color2={ 255 255 255 }
@@ -18586,7 +18686,8 @@ e_sword_coast = {
 				color2={ 255 255 255 }
 				
 				tethyrian = "Gaeth"
-				
+				holy_site = beholder_pantheon
+				holy_site = illithid_pantheon
 				b_high_hall = {}
 				b_ulgoths_beard = {}
 				b_bloomridge = {}
@@ -18814,7 +18915,7 @@ e_sword_coast = {
 				color2={ 255 255 255 }
 				
 				b_floshin_manor = {}
-				b_waypost_water = {}
+				b_the_selpir = {}
 				b_harpshield = {}
 				b_the_wash = {}
 				b_nandar_lodge = {}
@@ -19224,6 +19325,17 @@ e_sword_coast = {
 				b_everwinter = {}
 				b_st_bornemoth = {}
 				b_paravats = {}
+			}
+		}
+	}
+	k_shavinar = {
+		color = { 125 170 200 }
+		color2 = { 255 255 255 }
+		capital = 13 # Baldur's Gate / Gaeth
+		allow = {
+			is_feudal = yes
+			k_shavinar = {
+				is_titular = no
 			}
 		}
 	}
@@ -20122,7 +20234,7 @@ e_trackless_sea = {
 				
 				title = EARL
 				
-				b_highrock = {}
+				b_blackstone = {}
 				b_white_rock = {}
 				b_fairheight = {}
 				b_carnarvon = {}

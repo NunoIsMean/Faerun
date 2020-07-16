@@ -16,14 +16,13 @@ b_gharst = city
 
 # Misc
 culture = sun_elf
-religion = elven_pantheon
+religion = earthmother
 terrain = coastal
 #History
 150.1.1 = {
 	b_flamsterd = tribal
 	remove_settlement = b_gharst
 	culture = talfir
-	religion = earthmother
 }
 193.1.1 = {
 	b_flamsterd = castle
@@ -33,8 +32,8 @@ terrain = coastal
 	culture = ffolk
 }
 1291.1.1 = {
-	culture = monster
-	religion = monster_pantheon
-	b_flamsterd = tribal
 	remove_settlement = b_gharst
+}
+1346.1.1 = {
+	religion = chauntean_faith
 }

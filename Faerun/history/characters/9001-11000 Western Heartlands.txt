@@ -134,9 +134,22 @@
 	religion = good_human_pantheon
 	culture = highcoaster
 	trait = creature_human
-	trait = expert_fighter
 	1332.1.1 = { birth = yes }
-	1356.1.1 = { give_nickname = nick_greatshout }	
+	1348.1.1 = {
+		trait = expert_fighter
+		trait = adventurer
+		trait = skilled_tactician
+		trait = brave
+		trait = charitable
+		trait = just
+		trait = kind
+	}
+	1356.1.1 = { give_nickname = nick_greatshout }
+	1357.1.1 = {
+		remove_trait = adventurer
+		#add_trait = former_adventurer
+		add_trait = hunter
+	}
 	1385.1.1 = { death = yes }
 }
 
@@ -484,7 +497,12 @@
 	trait = creature_human
 	trait = trained_fighter
 	152.1.1 = { birth = yes }
-	183.1.1 = { give_nickname = nick_the_stag_king }
+	183.1.1 = { 
+		give_nickname = nick_the_stag_king
+		create_bloodline = {
+			type = aumar_bloodline
+		}
+	}
 	216.1.1 = { death = yes }
 }
 9038 = {
@@ -650,17 +668,20 @@
 	culture = heartlander
 	disallow_random_traits = yes
 	trait = creature_human
-	trait = bisexual
 	trait = brilliant
-	trait = mastermind_theologian
-	trait = just
-	trait = deceitful
-	trait = erudite
-	trait = scholar
 	212.1.1 = { birth = yes }
-	228.1.1 = { trait = rogue }
+	228.1.1 = {
+		trait = bisexual
+		trait = rogue
+		trait = mastermind_theologian
+		trait = just
+		trait = deceitful
+		trait = erudite
+		trait = scholar
+		trait = sympathy_many
+	}
 	235.1.1 = { trait = cleric }
-	240.1.1 = { 
+	240.1.1 = {
 		trait = legendary_wizard
 		trait = chosen_of_mystra
 		immortal_age = 75
@@ -3912,7 +3933,7 @@
 	name = "Tzaraak"
 	dynasty = 2601 # Tzaraak
 	culture = illithid
-	religion = evil_human_pantheon
+	religion = illithid_pantheon
 	trait = creature_illithid
 	trait = journeyman_sorcerer # should be psion
 	400.1.1 = { birth = yes }

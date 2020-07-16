@@ -16,7 +16,7 @@ b_trondhelm = tribal
 
 # Misc
 culture = hill_giant
-religion = earthmother
+religion = giant_pantheon
 terrain = hills
 #History
 270.1.1 = {
@@ -27,4 +27,9 @@ terrain = hills
 	b_trondhelm = castle
 	b_ramshorn = city
 	b_skien = temple
+}
+1386.1.1 = {
+	culture = fomorian
+	religion = giant_pantheon
+	remove_settlement = b_ramshorn
 }

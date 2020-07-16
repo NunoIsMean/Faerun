@@ -1950,6 +1950,9 @@ useless_character_trigger = {
 true_religion_group_good_human_pantheon_group_trigger = {
 	true_religion_group = good_human_pantheon_group
 }
+true_religion_elven_pantheon_trigger = {
+	true_religion = elven_pantheon
+}
 
 true_religion_group_pagan_group_trigger = {
 	true_religion_group = pagan_group
@@ -5593,7 +5596,7 @@ this_has_average_nickname_trigger = {
 		has_nickname = nick_lord_lady_ground
 		has_nickname = nick_warrior_lodge_spirit
 		has_nickname = nick_the_cannibal
-		has_nickname = nick_the_frail
+		has_nickname = nick_the_feeble
 		has_nickname = nick_the_weak
 		has_nickname = nick_the_brute
 		has_nickname = nick_the_mule

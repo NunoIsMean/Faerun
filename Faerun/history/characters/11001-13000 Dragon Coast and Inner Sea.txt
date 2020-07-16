@@ -696,7 +696,7 @@
 	stewardship = 7
 	intrigue = 12
 	learning = 9
-	#trait = creature_tiefling
+	trait = creature_tiefling
 	trait = half_fiend
 	trait = strong
 	trait = quick
@@ -716,7 +716,7 @@
 	trait = avatar
 	680.1.1 = {
 		birth = yes
-		culture = tiefling
+		culture = planar
 	}
 	710.1.1 = {
 		trait = immortal
@@ -811,7 +811,7 @@
 	trait = creature_human
 	trait = twin
 	father = 11066
-	738.1.1 = { birth = yes }
+	758.1.1 = { birth = yes }
 	783.1.1 = { death = yes }
 }
 
@@ -2503,7 +2503,7 @@
 	}
 	1348.1.1 = {
 		add_trait = elusive_shadow
-		add_trait = master_assassin
+		add_trait = master_shadow
 		add_trait = cruel
 		add_trait = diligent
 		add_trait = greedy

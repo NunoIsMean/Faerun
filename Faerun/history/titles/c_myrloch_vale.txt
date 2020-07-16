@@ -3,3 +3,7 @@
 	law = true_cognatic_succession
 	law = succ_primogeniture
 }
+1375.1.1 = {
+	liege = k_sarifal
+	holder = 50883 # Ordalf
+}
