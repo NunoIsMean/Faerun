@@ -1,6 +1,8 @@
 name = "Faerun"
 path = "mod/Faerun"
 user_dir = "Faerun"
+picture = "faerunlogo.jpg"
+tags = { "Total Conversion" "Fantasy" }
 
 replace_path = "common/landed_titles"
 replace_path = "common/trade_routes"
