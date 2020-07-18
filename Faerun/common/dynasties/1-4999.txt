@@ -80,7 +80,7 @@
 64 = { name = "Fomorach" culture = fomorian }
 65 = { name = "Derallinor" culture = sun_elf }
 66 = { name = "Feinn" culture = ffolk }
-67 = { name = "Dreamstealer" culture = hag used_for_random = no }
+67 = { name = "Dreamstealer" culture = rashemi used_for_random = no } #there is no hag culture
 68 = { name = "Invel" culture = sun_elf }
 69 = { name = "Revaran" culture = sun_elf }
 70 = { name = "Glarauk" culture = fomorian }
@@ -96,7 +96,23 @@
 80 = { name = "Bleakcoast" culture = northlander }
 81 = { name = "Stormrider" culture = northlander }
 82 = { name = "Doomclaw" culture = baatezu }
-
+83 = { name = "Norl" culture = northlander }
+84 = { name = "Grondar" culture = hill_giant used_for_random = no }
+85 = { name = "Histhek" culture = lizardfolk }
+86 = { name = "Kilgrave" culture = ffolk }
+87 = { name = "Veldann" culture = sun_elf used_for_random = no }
+88 = { name = "Olithir" culture = moon_elf used_for_random = no }
+89 = { name = "Blackhelm" culture = moon_elf used_for_random = no }
+90 = { name = "Feymane" culture = centaur }
+91 = { name = "Wavecrest" culture = genasi }
+92 = { name = "Vulganaar" culture = storm_giant }
+93 = { name = "Galewind" culture = cloud_giant }
+94 = { name = "Hailcrown" culture = cloud_giant }
+95 = { name = "Deepdwell" culture = stone_giant }
+96 = { name = "Hartwick" culture = illuskan used_for_random = no }
+97 = { name = "Thunderpeak" culture = storm_giant }
+98 = { name = "Burdun" culture = hill_giant used_for_random = no }
+99 = { name = "oin Meadowhome" culture = hill_giant used_for_random = no }
 100 = { name = "Baenre" culture = drow}
 101 = { name = "Barrison Del'Armgo" culture = drow }
 102 = { name = "Faen Tlabbar" culture = drow }
@@ -137,7 +153,24 @@
 137 = { name = "Barrityl" culture = drow }
 138 = { name = "Merzzinn" culture = drow }
 139 = { name = "Dhuurniv" culture = drow used_for_random = no }
-
+140 = { name = "Arveiaturace" culture = draconic used_for_random = no }
+141 = { name = "Iceheart" culture = frost_giant }
+142 = { name = "Solvigsdottir" culture = reghedman }
+143 = { name = "Kronenstrom" culture = reghedman }
+144 = { name = "Elkhardt" culture = reghedman }
+145 = { name = "Barrundson" culture = reghedman }
+146 = { name = "Halraggson" culture = reghedman }
+147 = { name = "Ingeloakastimizilian" culture = draconic used_for_random = no }
+148 = { name = "Coldscale" culture = kobold }
+149 = { name = "Arnsfirth" culture = reghedman }
+150 = { name = "Spinecrush" culture = troll }
+151 = { name = "Frostbound" culture = illuskan }
+152 = { name = "Shane" culture = illuskan }
+153 = { name = "Coldgrave" culture = orc }
+154 = { name = "Marrowfist" culture = troll }
+155 = { name = "Fangdelve" culture = kobold }
+156 = { name = "Wurmhorn" culture = frost_giant }
+157 = { name = "Ironmaster" culture = shield_dwarf used_for_random = no }
 
 400 = { name = "Ouroboros" culture = yuanti }
 

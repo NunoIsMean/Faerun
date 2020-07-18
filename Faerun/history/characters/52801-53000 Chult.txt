@@ -8,9 +8,8 @@
 	religion = ubtao_worship
 	trait = creature_human
 	trait = quick
-
 	1.1.1 = { # Actually about 500 years before this
-		birth=yes 
+		birth = yes 
 	}
 	16.1.1 = {
 		trait = patron_ubtao
@@ -125,8 +124,7 @@
 	trait = trained_fighter
 	trait = proud
 	1339.1.1 = { birth = yes }
-	1358.1.1 = { add_matrilineal_spouse = 52807 }
-	1367.1.1 = { 
+	1367.1.1 = {
 		death = {
 			death_reason = death_battle
 		}
@@ -143,6 +141,7 @@
 	trait = skilled_tactician
 	trait = brave
 	1339.1.1 = { birth = yes }
+	1358.1.1 = { add_spouse_matrilineal = 52806 }	
 	1369.1.1 = { death = yes }
 }
 52808 = {
@@ -189,6 +188,7 @@
 	trait = creature_goblin
 	trait = fighter
 	1319.1.1 = { birth = yes }
+	1337.1.1 = { add_spouse_matrilineal = 52812 }
 	1351.1.1 = { death = yes }
 }
 52812 = {
@@ -200,7 +200,6 @@
 	trait = creature_goblin
 	trait = trained_cleric
 	1319.1.1 = { birth = yes }
-	1337.1.1 = { add_matrilineal_spouse = 52811 }
 	1357.1.1 = { 
 		death = {
 			death_reason = death_duel
@@ -217,6 +216,7 @@
 	religion = goblin_pantheon
 	trait = creature_goblin
 	trait = journeyman_cleric
+	trait = legit_bastard # Not really
 	1339.1.1 = { birth = yes }
 	1400.1.1 = { death = yes }
 }
@@ -244,11 +244,11 @@
 52816 = {
 	name = "N'Wembe"
 	female = yes
-	dynasty = 9408 # t'Batiri
-	father = 52807
-	mother = 52806
-	culture = batiri
-	religion = goblin_pantheon
+	dynasty = 9408 # t'Batiri 
+	father = 52807 
+	mother = 52806 
+	culture = batiri 
+	religion = goblin_pantheon 
 	trait = creature_goblin
 	1359.1.1 = { birth = yes }
 	1400.1.1 = { death = yes }
@@ -344,12 +344,10 @@
 	}
 	1362.1.1 = {
 		add_trait = chosen_of_ubtao
+		add_trait = patron_ubtao
 	}
 	1365.1.1 = {
-		immortal_age = 16
-	}
-	1370.1.1 = {
-		add_trait = patron_ubtao
+		immortal_age = 16 #this is right
 	}
 	1449.1.1 = { death = yes }
 }
@@ -369,8 +367,8 @@
 	trait = patron_ubtao
 	1.1.1 = {
 		birth = yes #unknown
-		immortal_age = 20
 	}
+	31.1.1 = { immortal_age = 30 }
 	1400.1.1 = { death = yes }
 }
 #Omu Ruling Family
@@ -382,6 +380,7 @@
 	religion = ubtao_worship #trickster gods?
 	trait = cruel
 	trait = greedy
+	trait = creature_human
 	1341.1.1 = { birth = yes }
 	1392.1.1 = { death = yes }
 }
@@ -392,6 +391,7 @@
 	mother = 52823
 	culture = chultan
 	religion = ubtao_worship
+	trait = creature_human
 	1388.1.1 = { birth = yes }
 	1437.1.1 = { death = yes }
 }
@@ -402,14 +402,16 @@
 	mother = 52824
 	culture = chultan
 	religion = ubtao_worship
+	trait = creature_human	
 	1431.1.1 = { birth = yes }
+	1460.1.1 = { add_spouse_matrilineal = 52825 }
 	1476.1.1 = { death = yes }
 }
 52826 = {
 	name = "Omek"
-	dynasty = 0
 	culture = chultan
 	religion = ubtao_worship
+	trait = creature_human	
 	1439.1.1 = { birth = yes }
 	1475.1.1 = { death = { death_reason = death_accident} }
 }
@@ -421,6 +423,8 @@
 	father = 52826
 	culture = chultan
 	religion = ubtao_worship
+	trait = legit_bastard # Not really, but we try to placate the Validator
+	trait = creature_human	
 	1463.1.1 = { birth = yes }
 	1500.1.1 = { death = yes }
 }
@@ -431,6 +435,8 @@
 	father = 52826
 	culture = chultan
 	religion = ubtao_worship
+	trait = legit_bastard # Not really, but we try to placate the Validator	
+	trait = creature_human	
 	1474.1.1 = { birth = yes }
 	1510.1.1 = { death = yes }
 }
@@ -445,6 +451,7 @@
 	1252.1.1 = {
 		trait = brave
 	}
+	1266.1.1 = { immortal_age = 30 }
 	1500.1.1 = { death = yes }
 }
 #M'bala Chultans 52851-52860
@@ -455,7 +462,7 @@
 	religion = ubtao_worship
 	trait = creature_human
 	1325.1.1 = { birth = yes }
-	1341.1. = {
+	1341.1.1 = {
 		trait = homosexual
 		trait = gregarious
 	}

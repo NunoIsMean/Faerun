@@ -77,6 +77,7 @@
 	culture = shield_dwarf
 	trait = creature_dwarf
 	1284.5.27 = { birth = yes }
+	1314.5.27 = { immortal_age = 30 }
 	1354.4.9 = {
 		employer = 41001 # Thelorn / c_red_larch
 	}
@@ -199,6 +200,7 @@
 	trait = ambitious
 	
 	1312.5.16 = { birth = yes }
+	1342.5.16 = { immortal_age = 30 }
 	1433.9.20 = { death = yes }
 }
 41014 = {
@@ -215,9 +217,9 @@
 	name = Camden
 	dynasty = 6207
 	father = 41014
-	religion = good_human_pantheon
+	religion = giant_pantheon
 	culture = illuskan
-	trait = creature_human
+	trait = creature_half_giant
 	trait = twin
 	trait = wroth
 	martial = 7
@@ -249,7 +251,7 @@
 41018 = {
 	name = Goboka
 	dynasty = 5301
-	religion = abyssal_cult
+	religion = giant_pantheon
 	culture = ogre
 	trait = creature_ogre
 	trait = expert_cleric
@@ -488,7 +490,7 @@
 	1367.1.1 = {
 		give_nickname = nick_the_swift
 	}
-	1420.1.1 = { 
+	1410.1.1 = { 
 		death = yes
 	}
 }
@@ -503,7 +505,7 @@
 	trait = shadow
 	trait = charismatic_negotiator
 	1329.1.1 = { birth = yes }
-	1400.1.1 = { death = yes }
+	1389.1.1 = { death = yes }
 }
 41032 = {
 	#Father of Ardanac
@@ -653,6 +655,7 @@
 	trait = creature_treant
 	trait = master_druid
 	750.1.1 = { birth = yes }
+	780.1.1 = { immortal_age = 30 }
 	1600.1.1 = { death = yes }
 }
 41044 = {
@@ -668,6 +671,7 @@
 	trait = just
 	trait = shrewd
 	1331.1.1 = { birth = yes }
+	1361.1.1 = { immortal_age = 30 }
 	1500.1.1 = { death = yes }
 }
 41045 = {
@@ -713,6 +717,7 @@
 	trait = trained_fighter
 	trait = tough_soldier
 	1198.1.1 = { birth = yes }
+	1228.1.1 = { immortal_age = 30 }
 	1355.1.1 = { death = yes }
 }
 41048 = {
@@ -726,14 +731,14 @@
 	trait = tough_soldier
 	1320.1.1 = {
 		birth = yes
-		employer = 41034
+		employer = 41062
 	}
 	1405.1.1 = { death = yes }
 }
 41049 = {
 	name = "Grum"
 	dynasty = 5301
-	religion = abyssal_cult
+	religion = giant_pantheon
 	culture = ogre
 	trait = creature_ogre
 	father = 41018
@@ -907,7 +912,8 @@
 		birth = yes
 		culture = illuskan
 	}
-	1400.1.1 = { death = yes }
+	1280.1.1 = { immortal_age = 30 }
+	1310.1.1 = { death = yes }
 }
 41066 = {
 	name = "Neri"
@@ -1467,7 +1473,7 @@
 	trait = creature_human
 	father = 41120
 	1330.1.1 = { birth = yes }
-	1400.1.1 = { death = yes }
+	1370.1.1 = { death = yes }
 }
 41122 = {
 	name = "Lukaros"
@@ -1646,7 +1652,7 @@
 	trait = creature_human
 	father = 41138
 	1330.1.1 = { birth = yes }
-	1400.1.1 = { death = yes }
+	1390.1.1 = { death = yes }
 }
 41140 = {
 	name = "Arakon"
@@ -1697,6 +1703,7 @@
 	religion = giant_pantheon
 	trait = creature_giant
 	1280.1.1 = { birth = yes }
+	1310.1.1 = { immortal_age = 30 }
 	1372.1.1 = {
 		add_trait = incapable
 	}
@@ -1712,6 +1719,7 @@
 	trait = journeyman_cleric
 	father = 41144
 	1350.1.1 = { birth = yes }
+	1380.1.1 = { immortal_age = 30 }
 	1400.1.1 = { death = yes }
 }
 41146 = {
@@ -1886,8 +1894,9 @@
 	name = "Gromosh"
 	dynasty = 5301 # Nighthand
 	culture = ogre
-	religion = abyssal_cult
+	religion = giant_pantheon
 	trait = creature_ogre
+	father = 41251
 	1250.1.1 = { birth = yes }
 	1300.1.1 = { death = yes }
 }
@@ -1895,7 +1904,7 @@
 	name = "Gark"
 	dynasty = 5301 # Nighthand
 	culture = ogre
-	religion = abyssal_cult
+	religion = giant_pantheon
 	trait = creature_ogre
 	father = 41163
 	1280.1.1 = { birth = yes }
@@ -2499,4 +2508,1308 @@
 	trait = creature_human
 	418.1.1 = { birth = yes }
 	497.1.1 = { death = yes }
+}
+41221 = {
+	name = "Arselos"
+	dynasty = 92 # Vulganaar
+	culture = storm_giant
+	religion = giant_pantheon
+	learning = 9
+	trait = creature_giant
+	trait = renowned_cleric
+	1.1.1 = {
+		birth = yes
+	}
+	600.1.1 = {
+		death = yes
+	}
+}
+41222 = {
+	name = "Erul"
+	dynasty = 93 # Galewind
+	culture = cloud_giant
+	religion = giant_pantheon
+	learning = 9
+	trait = creature_giant
+	trait = renowned_cleric
+	550.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+41223 = {
+	name = "Xephras"
+	dynasty = 94 # Hailcrown
+	culture = cloud_giant
+	religion = giant_pantheon
+	learning = 9
+	trait = creature_giant
+	trait = renowned_cleric
+	trait = dwarf # Noted to be small
+	950.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+41224 = {
+	name = "Lubin"
+	dynasty = 95 # Deepdwell
+	culture = stone_giant
+	religion = giant_pantheon
+	learning = 9
+	trait = creature_giant
+	trait = renowned_cleric
+	1300.1.1 = {
+		birth = yes
+	}
+	1600.1.1 = {
+		death = yes
+	}
+}
+41225 = {
+	name = "Hartkiller"
+	dynasty = 96 # Hartwick
+	culture = frost_giant # Not specified
+	religion = giant_pantheon
+	trait = creature_giant
+	trait = avatar
+	trait = renowned_fighter
+	trait = kind
+	trait = patient
+	trait = dwarf # Noted as the smallest of Annam's sons
+	trait = strong
+	1.1.1 = {
+		birth = yes
+		culture = illuskan
+	}
+	30.1.1 = {
+		immortal_age = 30
+	}
+	540.1.1 = {
+		death = { death_reason = death_battle killer = 41226 }
+	}
+}
+41226 = {
+	name = "Kalegros"
+	dynasty = 97 # Thunderpeak
+	culture = storm_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	1.1.1 = {
+		birth = yes
+	}
+	30.1.1 = {
+		immortal_age = 30
+	}
+	480.1.1 = {
+		death = { death_reason = death_battle killer = 41225 }
+	}
+}
+41227 = {
+	name = "Brun"
+	dynasty = 96 # Hartwick
+	culture = illuskan
+	religion = giant_pantheon
+	trait = creature_half_giant
+	father = 41225
+	440.1.1 = {
+		birth = yes
+	}
+	520.1.1 = {
+		death = yes
+	}
+}
+41228 = {
+	name = "Rogar"
+	dynasty = 96 # Hartwick
+	culture = illuskan
+	religion = giant_pantheon
+	trait = creature_half_giant
+	father = 41227
+	490.1.1 = {
+		birth = yes
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+41229 = {
+	name = "Tavis"
+	dynasty = 98 # Burdun
+	culture = hill_giant # Firbolg
+	religion = giant_pantheon
+	trait = creature_giant
+	trait = master_ranger
+	trait = fair
+	1320.1.1 = {
+		birth = yes
+		employer = 41014
+	}
+	1348.1.1 = {
+		employer = 41015
+	}
+	1350.1.1 = {
+		immortal_age = 30
+	}
+	1366.9.1 = {
+		add_spouse_matrilineal = 41017
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+41230 = {
+	name = "Kaedlaw"
+	dynasty = 96 # Hartwick
+	culture = illuskan
+	religion = giant_pantheon
+	trait = creature_half_giant
+	father = 41229
+	mother = 41017
+	1369.1.1 = {
+		birth = yes
+	}
+	1440.1.1 = {
+		death = yes
+	}
+}
+41231 = {
+	name = "Grauman"
+	dynasty = 96 # Hartwick
+	culture = illuskan
+	religion = giant_pantheon
+	trait = creature_half_giant
+	father = 41230
+	1420.1.1 = {
+		birth = yes
+	}
+	1452.1.1 = {
+		give_nickname = nick_the_good
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41232 = {
+	name = "Simon"
+	culture = illuskan
+	religion = giant_pantheon
+	trait = creature_human
+	trait = is_fat
+	trait = groomed
+	trait = proud
+	trait = trained_cleric
+	1341.1.1 = {
+		birth = yes
+		employer = 41015
+	}
+	1358.1.1 = {
+		give_job_title = job_spiritual
+	}
+	1410.1.1 = {
+		death = yes
+	}
+}
+41233 = {
+	name = "Avner"
+	culture = illuskan
+	religion = giant_pantheon
+	secret_religion = evil_human_pantheon # Maskarran
+	trait = creature_human
+	trait = trained_rogue
+	trait = trained_ranger
+	trait = zealous
+	trait = content
+	trait = patron_mask
+	1348.1.1 = {
+		birth = yes
+		employer = 41015
+	}
+	1370.1.1 = {
+		death = yes
+	}
+}
+41234 = {
+	name = "Basil"
+	culture = hill_giant # Verbeeg
+	religion = giant_pantheon
+	trait = creature_giant
+	trait = expert_cleric
+	1310.1.1 = {
+		birth = yes
+	}
+	1366.9.1 = {
+		employer = 41017
+	}
+	1370.1.1 = {
+		add_trait = mangled
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41235 = {
+	name = "Galgadayle"
+	dynasty = 99 # oin Meadowhome
+	culture = hill_giant # Firbolg
+	religion = giant_pantheon
+	trait = creature_giant
+	trait = trained_cleric
+	1320.1.1 = {
+		birth = yes
+		employer = 41162
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41236 = {
+	name = "Og"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	1.1.1 = {
+		birth = yes
+	}
+	100.1.1 = {
+		death = yes
+	}
+}
+41237 = {
+	name = "Gruuk"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41236
+	80.1.1 = {
+		birth = yes
+	}
+	180.1.1 = {
+		death = yes
+	}
+}
+41238 = {
+	name = "Pogr"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41237
+	160.1.1 = {
+		birth = yes
+	}
+	260.1.1 = {
+		death = yes
+	}
+}
+41239 = {
+	name = "Grima"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41238
+	240.1.1 = {
+		birth = yes
+	}
+	340.1.1 = {
+		death = yes
+	}
+}
+41240 = {
+	name = "Mukor"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41239
+	320.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+41241 = {
+	name = "Guursh"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41240
+	400.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+41242 = {
+	name = "Heurg"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41241
+	480.1.1 = {
+		birth = yes
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+41243 = {
+	name = "Mog"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41242
+	560.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+41244 = {
+	name = "Grog"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41243
+	640.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+41245 = {
+	name = "Pog"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41244
+	720.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+41246 = {
+	name = "Grisha"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41245
+	800.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+41247 = {
+	name = "Grukor"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41246
+	880.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+41248 = {
+	name = "Azug"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41247
+	960.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+41249 = {
+	name = "Zugzug"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41248
+	1040.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+41250 = {
+	name = "Eg"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41249
+	1120.1.1 = {
+		birth = yes
+	}
+	1220.1.1 = {
+		death = yes
+	}
+}
+41251 = {
+	name = "Yagoth"
+	dynasty = 5301 # Nighthand
+	culture = ogre
+	religion = giant_pantheon
+	trait = creature_ogre
+	father = 41250
+	1200.1.1 = {
+		birth = yes
+	}
+	1270.1.1 = {
+		death = yes
+	}
+}
+41252 = {
+	name = "Cavadrugos"
+	dynasty = 140
+	culture = draconic
+	religion = draconic_pantheon
+	trait = creature_dragon
+	trait = creature_white_dragon
+	1.1.1 = {
+		birth = yes
+	}
+	650.1.1 = {
+		death = yes
+	}
+}
+41253 = {
+	name = "Arveiaturace"
+	dynasty = 140
+	culture = draconic
+	religion = draconic_pantheon
+	trait = creature_dragon
+	trait = creature_white_dragon
+	father = 41252
+	500.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		add_trait = lunatic
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41254 = {
+	name = "Grond"
+	dynasty = 141 # Iceheart
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	1.1.1 = {
+		birth = yes
+	}
+	250.1.1 = {
+		death = yes
+	}
+}
+41255 = {
+	name = "Kholek"
+	dynasty = 141 # Iceheart
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	father = 41254
+	230.1.1 = {
+		birth = yes
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+41256 = {
+	name = "Tronor"
+	dynasty = 141 # Iceheart
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	father = 41255
+	460.1.1 = {
+		birth = yes
+	}
+	710.1.1 = {
+		death = yes
+	}
+}
+41257 = {
+	name = "Ymar"
+	dynasty = 141 # Iceheart
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	father = 41256
+	690.1.1 = {
+		birth = yes
+	}
+	940.1.1 = {
+		death = yes
+	}
+}
+41258 = {
+	name = "Gisla"
+	female = yes
+	dynasty = 141 # Iceheart
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	father = 41257
+	920.1.1 = {
+		birth = yes
+	}
+	1170.1.1 = {
+		death = yes
+	}
+}
+41259 = {
+	name = "Maeve"
+	female = yes
+	dynasty = 141 # Iceheart
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	mother = 41258
+	1150.1.1 = {
+		birth = yes
+	}
+	1400.1.1 = {
+		death = yes
+	}
+}
+41260 = {
+	name = "Lorgar"
+	dynasty = 141 # Iceheart
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	mother = 41259
+	1380.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41261 = {
+	name = "Olgard"
+	dynasty = 6232 # Tiger
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	father = 41139
+	1374.1.1 = {
+		birth = yes
+	}
+	1460.1.1 = {
+		death = yes
+	}
+}
+41262 = {
+	name = "Korold"
+	dynasty = 6232 # Tiger
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	father = 41261
+	1440.1.1 = {
+		birth = yes
+	}
+	1467.1.1 = {
+		add_spouse = 41263
+	}
+	1482.1.1 = {
+		death = yes
+	}
+}
+41263 = {
+	name = "Bjornhild"
+	female = yes
+	dynasty = 142 # Solvigsdottir
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	trait = patron_auril
+	1450.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41264 = {
+	name = "Beorn"
+	dynasty = 6230 # Wolf
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	father = 41103
+	1380.1.1 = {
+		birth = yes
+	}
+	1468.1.1 = {
+		death = yes
+	}
+}
+41265 = {
+	name = "Isarr"
+	dynasty = 143 # Kronenstrom
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	trait = cruel
+	trait = patron_malar
+	#trait = chosen_of_malar
+	1445.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41266 = {
+	name = "Bruenorson"
+	dynasty = 1001
+	culture = reghedman
+	religion = good_human_pantheon
+	trait = creature_human
+	father = 41027
+	1379.1.1 = {
+		birth = yes
+	}
+	1455.1.1 = {
+		death = yes
+	}
+}
+41267 = {
+	name = "Jarund"
+	dynasty = 144 # Elkhardt
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	1436.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41268 = {
+	name = "Jarund"
+	dynasty = 144 # Elkhardt
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	father = 41267
+	1460.1.1 = {
+		birth = yes
+	}
+	1482.1.1 = {
+		death = { death_reason = death_accident_bear }
+	}
+}
+41269 = {
+	name = "Igrok"
+	dynasty = 6231 # Bear
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	1350.1.1 = {
+		birth = yes
+	}
+	1450.1.1 = {
+		death = yes
+	}
+}
+41270 = {
+	name = "Wolvig"
+	dynasty = 145 # Barrundson
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	1430.1.1 = {
+		birth = yes
+	}
+	1485.1.1 = {
+		trait = patron_auril
+	}
+	1485.5.1 = {
+		death = yes
+	}
+}
+41271 = {
+	name = "Gunvald"
+	dynasty = 146 # Halraggson
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	trait = patron_tempus
+	1443.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41272 = {
+	name = "Ingeloakastimizilian"
+	dynasty = 147
+	culture = draconic
+	religion = draconic_pantheon
+	trait = creature_human
+	trait = creature_white_dragon
+	800.1.1 = {
+		birth = yes
+	}
+	830.1.1 = {
+		immortal_age = 30
+	}
+	1356.1.1 = {
+		death = { death_reason = death_duel killer = 117 }
+	}
+}
+41273 = {
+	name = "Niek"
+	dynasty = 148 # Coldscale
+	culture = kobold
+	religion = draconic_pantheon
+	trait = creature_kobold
+	1330.1.1 = {
+		birth = yes
+	}
+	1430.1.1 = {
+		death = yes
+	}
+}
+41274 = {
+	name = "Vlish"
+	female = yes
+	dynasty = 148 # Coldscale
+	culture = kobold
+	religion = draconic_pantheon
+	trait = creature_kobold
+	father = 41273
+	1410.1.1 = {
+		birth = yes
+	}
+	1485.1.1 = {
+		death = yes
+	}
+}
+41275 = {
+	name = "Hedrun"
+	female = yes
+	dynasty = 149 # Arnsfirth
+	culture = reghedman
+	religion = deities_of_fury
+	trait = creature_human
+	1460.1.1 = {
+		birth = yes
+		employer = 41267
+	}
+	1484.1.1 = {
+		effect = { banish = yes }
+		add_trait = patron_auril
+		add_trait = chosen_of_auril
+		add_trait = expert_cleric
+		give_nickname = nick_the_ice_witch
+	}
+	1485.5.1 = {
+		add_trait = undead
+		effect = { imprison = 53001 }
+	}
+	1485.9.1 = {
+		death = yes
+	}
+}
+41276 = {
+	name = "Kipyak"
+	dynasty = 148 # Coldscale
+	culture = kobold
+	religion = draconic_pantheon
+	trait = creature_kobold
+	mother = 41274
+	1460.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41277 = {
+	name = "Gurrz"
+	female = yes
+	dynasty = 150 # Spinecrush
+	culture = troll
+	religion = abyssal_cult
+	trait = creature_troll
+	1.1.1 = {
+		birth = yes
+	}
+	30.1.1 = {
+		immortal_age = 30
+	}
+	350.1.1 = {
+		death = yes
+	}
+}
+41278 = {
+	name = "Ugok"
+	female = yes
+	dynasty = 150 # Spinecrush
+	culture = troll
+	religion = abyssal_cult
+	trait = creature_troll
+	330.1.1 = {
+		birth = yes
+	}
+	360.1.1 = {
+		immortal_age = 30
+	}
+	680.1.1 = {
+		death = yes
+	}
+}
+41279 = {
+	name = "Griz"
+	female = yes
+	dynasty = 150 # Spinecrush
+	culture = troll
+	religion = abyssal_cult
+	trait = creature_troll
+	660.1.1 = {
+		birth = yes
+	}
+	690.1.1 = {
+		immortal_age = 30
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+41280 = {
+	name = "Lirk"
+	female = yes
+	dynasty = 150 # Spinecrush
+	culture = troll
+	religion = abyssal_cult
+	trait = creature_troll
+	990.1.1 = {
+		birth = yes
+	}
+	1020.1.1 = {
+		immortal_age = 30
+	}
+	1220.1.1 = {
+		death = yes
+	}
+}
+41281 = {
+	name = "Grok"
+	dynasty = 5301
+	religion = giant_pantheon
+	culture = ogre
+	trait = creature_ogre
+	father = 41049
+	1380.1.1 = {
+		birth = yes
+	}
+	1470.1.1 = {
+		death = yes
+	}
+}
+41282 = {
+	name = "Losp"
+	dynasty = 5301
+	religion = giant_pantheon
+	culture = ogre
+	trait = creature_ogre
+	father = 41281
+	1450.1.1 = {
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}	
+}
+41283 = {
+	name = "Galen"
+	dynasty = 151 # Frostbound
+	culture = illuskan
+	religion = good_human_pantheon
+	trait = creature_human
+	1365.1.1 = {
+		birth = yes
+	}
+	1453.1.1 = {
+		death = yes
+	}
+}
+41284 = {
+	name = "Duvessa"
+	dynasty = 152 # Shane
+	culture = illuskan
+	religion = good_human_pantheon
+	diplomacy = 8
+	trait = creature_human
+	trait = gregarious
+	1432.1.1 = { 
+		birth = yes
+	}
+	1500.1.1 = {
+		death = yes
+	}
+}
+41285 = {
+	name = "Norgar"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	1.1.1 = {
+		birth = yes
+	}
+	100.1.1 = {
+		death = yes
+	}
+}
+41286 = {
+	name = "Grav"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	father = 41285
+	80.1.1 = {
+		birth = yes
+	}
+	180.1.1 = {
+		death = yes
+	}
+}
+41287 = {
+	name = "Lossar"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	father = 41286
+	160.1.1 = {
+		birth = yes
+	}
+	260.1.1 = {
+		death = yes
+	}
+}
+41288 = {
+	name = "Yrrok"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	father = 41287
+	240.1.1 = {
+		birth = yes
+	}
+	340.1.1 = {
+		death = yes
+	}
+}
+41289 = {
+	name = "Dazh"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	father = 41288
+	320.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+41290 = {
+	name = "Niev"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	father = 41289
+	400.1.1 = {
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+41291 = {
+	name = "Wogro"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	father = 41290
+	480.1.1 = {
+		birth = yes
+	}
+	580.1.1 = {
+		death = yes
+	}
+}
+41292 = {
+	name = "Loshan"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	father = 41291
+	560.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+41293 = {
+	name = "Monrol"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	father = 41292
+	640.1.1 = {
+		birth = yes
+	}
+	740.1.1 = {
+		death = yes
+	}
+}
+41294 = {
+	name = "Ogrom"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	father = 41293
+	720.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
+		death = yes
+	}
+}
+41295 = {
+	name = "Lokarr"
+	dynasty = 153 # Coldgrave
+	culture = orc
+	religion = orc_pantheon
+	trait = creature_orc
+	father = 41294
+	800.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+41296 = {
+	name = "Ov"
+	female = yes
+	dynasty = 154 # Marrowfist
+	culture = troll
+	religion = abyssal_cult
+	trait = creature_troll
+	870.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+41297 = {
+	name = "Nirrik"
+	dynasty = 155 # Fangdelve
+	culture = kobold
+	religion = draconic_pantheon
+	trait = creature_kobold
+	880.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+41298 = {
+	name = "Lish"
+	female = yes
+	dynasty = 155 # Fangdelve
+	culture = kobold
+	religion = draconic_pantheon
+	trait = creature_kobold
+	father = 41297
+	960.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+41299 = {
+	name = "Kirti"
+	dynasty = 155 # Fangdelve
+	culture = kobold
+	religion = draconic_pantheon
+	trait = creature_kobold
+	mother = 41298
+	1040.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+41300 = {
+	name = "Usha"
+	female = yes
+	dynasty = 155 # Fangdelve
+	culture = kobold
+	religion = draconic_pantheon
+	trait = creature_kobold
+	father = 41299
+	1120.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}
+41301 = {
+	name = "Brigwyth"
+	female = yes
+	dynasty = 156 # Wurmhorn
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	150.1.1 = {
+		birth = yes
+	}
+	180.1.1 = {
+		immortal_age = 30
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+41302 = {
+	name = "Ralof"
+	dynasty = 156 # Wurmhorn
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	mother = 41301
+	380.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		immortal_age = 30
+	}
+	630.1.1 = {
+		death = yes
+	}
+}
+41303 = {
+	name = "Hadvar"
+	dynasty = 156 # Wurmhorn
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	father = 41302
+	610.1.1 = {
+		birth = yes
+	}
+	640.1.1 = {
+		immortal_age = 30
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+41304 = {
+	name = "Ilja"
+	female = yes
+	dynasty = 156 # Wurmhorn
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	father = 41303
+	840.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		immortal_age = 30
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+41305 = {
+	name = "Garm"
+	dynasty = 156 # Wurmhorn
+	culture = frost_giant
+	religion = giant_pantheon
+	trait = creature_giant
+	mother = 41304
+	1070.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		immortal_age = 30
+	}
+	1306.1.1 = {
+		death = yes
+	}
+}
+41306 = {
+	name = "Knut"
+	dynasty = 157 # Ironmaster
+	culture = shield_dwarf
+	religion = dwarven_pantheon
+	trait = creature_dwarf
+	1.1.1 = {
+		birth = yes
+	}
+	192.1.1 = {
+		death = yes
+	}
 }

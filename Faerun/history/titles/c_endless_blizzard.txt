@@ -1,3 +1,15 @@
-800.1.1={
-	liege=k_savage_north
+1.1.1 = {
+	law = agnatic_succession
+	law = succ_divine_elective
+	holder = 41221 # Arselos Vulganaar
+	liege = k_storting
+}
+600.1.1 = {
+	holder = 41222 # Erul Galewind
+}
+1000.1.1 = {
+	holder = 41223 # Xephras Hailcrown
+}
+1400.1.1 = {
+	holder = 41224 # Lubin Deepdwell
 }

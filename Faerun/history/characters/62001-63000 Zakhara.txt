@@ -132,6 +132,7 @@
 		birth = yes
 		culture = qarsan
 	}
+	1328.5.5 = { immortal_age = 30 }
 	1403.10.16 = {
 		death = { death_reason = death_natural }
 	}
@@ -556,8 +557,11 @@
 		birth = yes
 		culture = hadhar
 		give_nickname = nick_min_najm
-		employer = 62027
 		give_job_title = job_chancellor
+	}
+	1295.4.13 = { immortal_age = 30 }
+	1336.11.23 = {
+		employer = 62027
 	}
 	1433.8.10 = {
 		death = { death_reason = death_natural }
@@ -567,7 +571,7 @@
 62034 = {
 	name = "Kamal"
 	dynasty = 9359 # al-Hadi
-	culture = hadhar
+	culture = moon_elf
 	religion = ten_thousand_gods
 	diplomacy = 7
 	martial = 2
@@ -579,7 +583,11 @@
 	trait = renowned_wizard
 	trait = genius
 	trait = deceitful
-	1278.5.11 = { birth = yes }
+	1278.5.11 = {
+		birth = yes
+		culture = hadhar
+	}
+	1308.5.11 = { immortal_age = 30 }
 	1422.7.19 = {
 		death = { death_reason = death_natural }
 	}
@@ -614,6 +622,10 @@
 	trait = master_wizard
 	1155.10.3 = {
 		birth = yes
+		culture = hadhar
+	}
+	1185.10.3 = { immortal_age = 30 }
+	1278.5.11 = {
 		employer = 62034
 	}
 	1765.2.10 = {
@@ -854,6 +866,7 @@
 		birth = yes
 		culture = hadhar
 	}
+	1248.5.10 = { immortal_age = 30 }
 	1400.1.1 = {
 		death = { death_reason = death_natural }
 	}
@@ -1106,6 +1119,7 @@
 		birth = yes
 		culture = hadhar
 	}
+	1260.5.19 = { immortal_age = 30 }
 	1400.1.1 = {
 		death = { death_reason = death_natural }
 	}

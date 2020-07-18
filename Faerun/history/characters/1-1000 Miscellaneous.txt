@@ -21,7 +21,10 @@
 	trait = absent
 	trait = legendary_shadow
 	trait = legendary_fighter
-	1240.5.4 = { birth = yes }
+	1240.5.4 = {
+		birth = yes 
+		give_nickname = nick_the_lord_of_murder
+	}
 	1250.1.1 = {
 		create_bloodline = {
 			type = bhaal_bloodline
@@ -146,6 +149,7 @@
 	trait = patron_bhaal
 	father = 2
 	1329.1.1 = { birth = yes }
+	1359.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		death = { death_reason = death_duel killer = 3 }
 	}
@@ -188,6 +192,7 @@
 	1360.1.1 = {
 		give_nickname = nick_the_quick
 	}
+	1361.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		death = { death_reason = death_duel killer = 3 }
 	}
@@ -207,6 +212,7 @@
 	trait = patron_bhaal
 	father = 2
 	1333.1.1 = { birth = yes }
+	1363.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		death = { death_reason = death_duel killer = 3 }
 	}
@@ -230,6 +236,7 @@
 			add_claim = c_surkazar
 		}
 	}
+	1364.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		death = { death_reason = death_duel killer = 3 }
 	}
@@ -284,7 +291,7 @@
 	father = 66219
 	trait = renowned_sorcerer
 	trait = creature_feyri
-	trait = twin
+	#trait = twin
 	trait = grey_eminence
 	trait = lustful
 	trait = cruel
@@ -296,7 +303,9 @@
 	trait = immortal
 	trait = bio_sarya
 	trait = absent
+	trait = legit_bastard
 	20.1.1 = { birth = yes }
+	50.1.1 = { immortal_age = 30 }
 	1369.1.1 = { remove_trait = absent }
 	1374.8.20 = { death = yes}
 }
@@ -321,7 +330,9 @@
 	trait = pretty
 	trait = absent
 	trait = expert_fighter
+	trait = legit_bastard
 	50.1.1 = { birth = yes }
+	80.1.1 = { immortal_age = 30 }
 	1369.1.1 = { remove_trait = absent }	
 	1374.8.20 = { death = yes} #wiki is conflicted
 }
@@ -348,7 +359,9 @@
 	trait = bright
 	trait = absent
 	trait = expert_wizard #no psionics yet
+	trait = legit_bastard
 	60.1.1 = { birth = yes }
+	90.1.1 = { immortal_age = 30 }
 	1369.1.1 = { remove_trait = absent }	
 	1371.9.9 = { 
 		death = {
@@ -379,10 +392,9 @@
 	trait = strong
 	trait = absent
 	trait = expert_barbarian
+	trait = legit_bastard
 	70.1.1 = { birth = yes }
-	86.1.1 = {
-		immortal_age = 16
-	}
+	100.1.1 = { immortal_age = 30 }
 	1369.1.1 = { remove_trait = absent }
 	1374.8.20 = {death = yes}
 }
@@ -393,8 +405,9 @@
 	religion = abyssal_cult
 	mother = 25
 	trait = creature_feyri
-	trait = twin
+	#trait = twin
 	20.1.1 = { birth = yes }
+	50.1.1 = { immortal_age = 30 }
 	80.1.1 = {death = yes}
 }
 25 = {
@@ -406,6 +419,7 @@
 	trait = creature_elf
 	trait = absent
 	1.1.1 = { birth = yes }
+	31.1.1 = { immortal_age = 30 }
 	80.1.1 = {death = yes}
 }
 # House Floshin
@@ -418,7 +432,9 @@
 	religion = abyssal_cult
 	trait = creature_feyri
 	trait = absent
+	trait = legit_bastard
 	50.1.1 = { birth = yes }
+	80.1.1 = { immortal_age = 30 }
 	100.1.1 = { death = yes }
 }
 27 = {
@@ -434,6 +450,7 @@
 	trait = zealous
 	trait = patron_ghaunadaur
 	75.1.1 = { birth =  yes }
+	105.1.1 = { immortal_age = 30 }
 	150.1.1 = { add_spouse = 42 } # Talya Aelorothi
 	1369.1.1 = {
 		remove_trait = absent
@@ -455,6 +472,7 @@
 	150.1.1 = { 
 		birth = yes 
 	}
+	180.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 7081 # Dulbrawan Anteos
@@ -472,6 +490,7 @@
 	trait = absent
 	trait = trained_shadow
 	152.1.1 = { birth = yes }
+	182.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -490,6 +509,7 @@
 	trait = absent
 	trait = rogue
 	155.1.1 = { birth = yes }
+	185.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -508,6 +528,7 @@
 	trait = absent
 	trait = fighter
 	157.1.1 = { birth = yes }
+	187.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -525,6 +546,7 @@
 	trait = fighter
 	trait = trained_wizard
 	85.1.1 = { birth =  yes }
+	115.1.1 = { immortal_age = 30 }
 	1366.1.1 = {
 		remove_trait = absent
 	}
@@ -540,7 +562,9 @@
 	religion = abyssal_cult
 	trait = creature_feyri
 	trait = absent
+	trait = legit_bastard
 	52.1.1 = { birth = yes }
+	82.1.1 = { immortal_age = 30 }
 	100.1.1 = { death = yes }
 }
 34 = {
@@ -556,6 +580,7 @@
 	trait = trained_wizard
 	trait = trained_shadow
 	76.1.1 = { birth = yes }
+	106.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -571,7 +596,9 @@
 	religion = abyssal_cult
 	trait = creature_feyri
 	trait = absent
+	trait = legit_bastard
 	54.1.1 = { birth = yes }
+	84.1.1 = { immortal_age = 30 }
 	100.1.1 = { death = yes }
 }
 36 = {
@@ -585,8 +612,9 @@
 	trait = skilled_tactician
 	trait = trained_wizard
 	trait = trained_fighter
-	
 	77.1.1 = { birth = yes }
+	107.1.1 = { immortal_age = 30 }
+	150.1.1 = { add_matrilineal_spouse = 47 } # Nydyaa Ealoeth
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -607,7 +635,9 @@
 	trait = deceitful
 	trait = absent
 	trait = renowned_wizard
+	trait = legit_bastard
 	55.1.1 = { birth = yes }
+	85.1.1 = { immortal_age = 30 }
 	882.1.1 = { 
 		death = { 
 			death_reason = death_combat_magic
@@ -623,7 +653,10 @@
 	trait = creature_feyri
 	trait = absent
 	60.1.1 = { birth = yes }
-	90.1.1 = { add_spouse = 51 } # Dyrianza Ealoeth
+	90.1.1 = { 
+		add_spouse = 51
+		immortal_age = 30
+	} # Dyrianza Ealoeth
 	150.1.1 = { death = yes }
 }
 39 = {
@@ -638,7 +671,10 @@
 	trait = martial_cleric
 	trait = absent
 	95.1.1 = { birth = yes }
-	120.1.1 = { add_spouse = 34 } # Saesaan Floshin
+	120.1.1 = { 
+		add_spouse = 34
+		immortal_age = 30
+	} # Saesaan Floshin
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -657,6 +693,7 @@
 	trait = tough_soldier
 	trait = absent
 	150.1.1 = { birth = yes }
+	180.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -676,6 +713,7 @@
 	trait = trained_sorcerer
 	trait = absent
 	170.1.1 = { birth = yes }
+	200.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -698,6 +736,7 @@
 	125.1.1 = { 
 		birth = yes 
 	}
+	155.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -714,6 +753,7 @@
 	trait = creature_elf
 	trait = absent
 	3.1.1 = { birth = yes }
+	33.1.1 = { immortal_age = 30 }
 	100.1.1 = {
 		death = {
 			death_reason = death_planes
@@ -729,7 +769,9 @@
 	religion = abyssal_cult
 	trait = creature_feyri
 	trait = absent
+	trait = legit_bastard
 	25.1.1 = { birth = yes }
+	55.1.1 = { immortal_age = 30 }
 	120.1.1 = { death = yes }
 }
 45 = {
@@ -741,7 +783,9 @@
 	religion = abyssal_cult
 	trait = creature_feyri
 	trait = absent
+	trait = legit_bastard
 	50.1.1 = { birth = yes }
+	80.1.1 = { immortal_age = 30 }
 	180.1.1 = { death = yes }
 }
 46 = {
@@ -753,6 +797,7 @@
 	trait = creature_feyri
 	trait = absent
 	75.1.1 = { birth = yes }
+	105.1.1 = { immortal_age = 30 }
 	180.1.1 = { death = yes }
 }
 47 = {
@@ -770,7 +815,7 @@
 		birth = yes 
 		effect = { set_graphical_culture = vampire }
 	}
-	150.1.1 = { add_matrilineal_spouse = 36 } # Myrlaer Floshin
+	125.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -789,6 +834,7 @@
 	trait = sorcerer
 	trait = absent
 	160.1.1 = { birth = yes }
+	190.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -807,6 +853,7 @@
 	trait = trained_warlock
 	trait = absent
 	180.1.1 = { birth = yes }
+	210.1.1 = { immortal_age = 30 }
 	250.1.1 = { 
 		effect = {
 			add_lover = 23 # Xhalth Dlardrageth
@@ -829,7 +876,9 @@
 	trait = creature_feyri
 	trait = trained_ranger
 	trait = absent
+	trait = legit_bastard
 	260.1.1 = { birth = yes }
+	290.1.1 = { immortal_age = 30 }
 	1369.1.1 = {
 		remove_trait = absent
 		employer = 20 # Sarya Dlardrageth
@@ -846,6 +895,7 @@
 	trait = creature_feyri
 	trait = absent
 	74.1.1 = { birth = yes }
+	104.1.1 = { immortal_age = 30 }
 	300.1.1 = { death = yes }
 }
 52 = {
@@ -858,9 +908,11 @@
 	religion = abyssal_cult
 	trait = creature_feyri
 	trait = absent
+	trait = legit_bastard
 	45.1.1 = { 
 		birth = yes 
 	}
+	75.1.1 = { immortal_age = 30 }
 	120.1.1 = { death = yes }
 }
 	
@@ -977,6 +1029,7 @@
 	trait = master_cleric
 	easter_egg = yes
 	1305.1.1 = { birth = yes }
+	1335.1.1 = { immortal_age = 30 }
 	1347.1.1 = {
 		employer = 81
 	}
@@ -1005,6 +1058,7 @@
 	trait = master_wizard
 	easter_egg = yes
 	1229.1.1 = { birth = yes }
+	1259.1.1 = { immortal_age = 30 }
 	1357.1.1 = {
 		employer = 81
 	}
@@ -1037,6 +1091,7 @@
 	1357.1.1 = {
 		employer = 81
 	}
+	1362.1.1 = { immortal_age = 30 }
 	1432.1.1 = { death = yes }
 }
 87 = {
@@ -1065,6 +1120,7 @@
 	trait = scholarly_theologian
 	easter_egg = yes
 	1229.1.1 = { birth = yes }
+	1259.1.1 = { immortal_age = 30 }
 	1513.1.1 = { death = yes }
 }
 88 = {
@@ -1090,6 +1146,7 @@
 	trait = skilled_tactician
 	easter_egg = yes
 	1297.1.1 = { birth = yes }
+	1327.1.1 = { immortal_age = 30 }
 	1641.1.1 = { death = yes }
 }
 89 = {
@@ -1114,6 +1171,7 @@
 	trait = detached_priest
 	easter_egg = yes
 	1268.1.1 = { birth = yes }
+	1298.1.1 = { immortal_age = 30 }
 	1428.1.1 = { death = yes }
 }
 90 = {
@@ -1313,6 +1371,7 @@
 			add_friend = 7079
 		}
 	}
+	797.1.1 = { immortal_age = 30 }
 	1379.1.1 = { death = yes }
 }
 105 = {
@@ -1333,7 +1392,7 @@
 	trait = gregarious
 	trait = lustful
 	1332.7.22 = { birth = yes }
-	1355.1.1 = { add_matrilineal_spouse = 106 }
+	1362.7.22 = { immortal_age = 30 }
 	1430.1.1 = { death = yes }
 }
 106 = {
@@ -1344,6 +1403,8 @@
 	trait = creature_halfling
 	trait = trained_warlock
 	1330.1.1 = { birth = yes }
+	1355.1.1 = { add_matrilineal_spouse = 105 }	
+	1360.1.1 = { immortal_age = 30 }
 	1410.1.1 = { death = yes }
 }
 107 = {
@@ -1403,6 +1464,7 @@
 	trait = scholarly_theologian
 	trait = absent
 	1.1.1 = { birth = yes }
+	31.1.1 = { immortal_age = 30 }
 	1363.1.1 = {
 		remove_trait = absent	
 		effect = {
@@ -1436,6 +1498,7 @@
 	religion = evil_human_pantheon
 	trait = creature_dragon
 	150.1.1 = { birth = yes }
+	180.1.1 = { immortal_age = 30 }
 	1018.1.1 = {
 		effect = { 
 			add_trait = lich
@@ -1456,6 +1519,7 @@
 	trait = wroth
 	trait = absent
 	150.1.1 = { birth = yes }
+	180.1.1 = { immortal_age = 30 }
 	1018.1.1 = {
 		add_trait = avatar
 	}
@@ -1495,6 +1559,7 @@
 	religion = giant_pantheon
 	trait = creature_giant
 	550.1.1 = { birth = yes }
+	580.1.1 = { immortal_age = 30 }
 	870.1.1 = { death = yes }
 }
 116 = {
@@ -1521,6 +1586,7 @@
 		birth = yes
 		culture = planar
 	}
+	31.1.1 = { immortal_age = 30 }
 	1357.1.1 = {
 		remove_trait = absent
 	}
@@ -1564,6 +1630,7 @@
 			add_friend = 17001
 		}
 	}
+	1327.1.1 = { immortal_age = 30 }
 	1340.1.1 = {
 		remove_trait = journeyman_ranger
 		add_trait = expert_ranger
@@ -1643,6 +1710,9 @@
 		birth = yes #on Oerth
 		culture = oeridian
 		give_nickname = nick_the_devourer
+	}
+	30.1.1 = {
+		immortal_age = 30
 	}
 	1361.1.1 = { #arrives on Faerun around this time
 		remove_trait = absent
