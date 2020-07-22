@@ -419,3 +419,30 @@ nick_iceclaws = {}
 nick_old_white_death = {}
 nick_the_crow = {}
 nick_the_hero_of_neverwinter = {}
+nick_the_ancient = {
+	allow = {
+		age = 750
+	}
+	chance = {
+		factor = 1
+	}
+}
+
+nick_the_timeless = {
+	allow = {
+		age = 1500
+	}
+	chance = {
+		factor = 1
+	}
+}
+
+
+nick_the_eternal = {
+	allow = {
+		age = 2000
+	}
+	chance = {
+		factor = 1
+	}
+}
